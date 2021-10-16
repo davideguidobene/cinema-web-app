@@ -1,0 +1,29 @@
+{% extends 'home/layout.html' %}
+
+{% block title %}
+  About
+{% endblock %}
+
+
+{% block content %}
+  {{ super() }}
+
+  <div class="container">
+
+    <h1>NewImageCINEMA</h1>
+
+    <h2>Location</h2>
+    <p>
+      404 St. Not Found <br/>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1NPiaxSLzi3LAXVQcEWDCsYG7z3JspLA_" width="640" height="480"></iframe>
+    </p>
+
+    <h2>Schedule</h2>
+    <p>
+      Mon-Fri 14:00-23:00 <br/>
+      Sat-Sun 12:00-24:00
+    </p>
+
+  </div>
+
+{% endblock %}

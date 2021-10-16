@@ -1,0 +1,55 @@
+{% extends 'dash/insert_update_forms/layout.html' %}
+
+
+{% block form_content %}
+
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label for="row">Row</label>
+        <input
+          type="number"
+          class="form-control"
+          name="row"
+          id="row"
+          placeholder="Row"
+          min="0" max="50" step="1"
+          value="{{ tuple.get('row', '') }}"
+          required
+          autofocus
+        >
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label for="column">Column</label>
+        <input
+          type="number"
+          class="form-control"
+          name="column"
+          id="column"
+          placeholder="Column"
+          min="0" max="50" step="1"
+          value="{{ tuple.get('column', '') }}"
+          required
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="purchase">Purchase</label>
+    <select class="form-control" name="purchase" id="purchase" placeholder="Purchase" required autofocus>
+      <option value=""></option>
+      {% for purchase in additional_data.purchases %}
+        <option
+          value="{{ purchase.id }}"
+          {% if purchase.id == tuple.get('purchase', '') %} selected {% endif %}
+        >
+          {{ purchase.id }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+{% endblock %}

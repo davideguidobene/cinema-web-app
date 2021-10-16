@@ -1,0 +1,69 @@
+{% extends 'dash/layout.html' %}
+
+
+{% block title %}
+  Dashboard - Insert into {{ table_name }}
+{% endblock %}
+
+
+{% if not tuple %}
+  {% set tuple = {} %}
+{% endif %}
+
+
+{% block content %}
+
+  <div class="container">
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% for category, message in messages %}
+        <div class="container">
+            <div class="alert-container">
+              <div class="alert alert-{{ category }}" role="alert">
+                {{ message }}
+              </div>
+            </div>
+        </div>
+      {% endfor %}
+    {% endwith %}
+
+
+    <div class="form-container">
+
+      <h1 class="h3 mb-3 font-weight-normal">{{ table_name }}</h1>
+
+      <!-- form -->
+      <form action="" method="POST">
+
+        {% if tuple != {} %}          <!-- tupla non vuota implica form per update -->
+
+          <!-- memorizzo vecchia primary key, per poterla usare nella query di update -->
+          {% for pk_name in primary_key_names %}
+            <input type="hidden" name="{{ pk_name }}_old" value="{{ tuple[pk_name] }}">
+          {% endfor %}
+
+        {% endif %}
+
+        {% block form_content %}
+        {% endblock %}
+
+        <br>
+        <button type="submit" class="btn btn-primary btn-block">
+          {% if tuple == {} %}
+            Insert
+          {% else %}
+            Update
+          {% endif %}
+        </button>
+      </form>
+
+    </div>
+  </div>
+
+{% endblock %}
+
+
+{% block custom_js %}
+  {{ super() }}
+  <script src="{{ url_for('static', filename='js/dash.js') }}"></script>
+{% endblock %}

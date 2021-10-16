@@ -1,0 +1,23 @@
+{% extends 'reserved_area/layout.html' %}
+
+
+{% block title %}
+  Reserved area - {{ current_user.get_id() }}
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="container">
+    <div class="reserved-area-list">
+      <h1>Reserved area</h1>
+
+      <ul>
+        <li><a href="{{ url_for('reserved_area.purchase_history') }}">Purchase history</a></li>
+        <li><a href="{{ url_for('reserved_area.payment_methods') }}">Payment methods</a></li>
+        <li><a href="{{ url_for('reserved_area.settings') }}">Settings</a></li>
+      </ul>
+    </div>
+  </div>
+
+{% endblock %}

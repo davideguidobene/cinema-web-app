@@ -1,0 +1,41 @@
+{% extends 'home/layout.html' %}
+
+
+{% block title %}
+  Purchase result
+{% endblock %}
+
+
+{% block content %}
+  <!-- {{ super() }} super non va bene qua -->
+
+  <div class="container">
+    <div class="purchase-result">
+      {% if not error %}
+        <div class="alert alert-success" role="alert">
+          <h4 class="alert-heading">Well done!</h4>
+          <p>Your purchase was successful! You will find the tickets in your reserved area.</p>
+        </div>
+      {% else %}
+        <div class="alert alert-danger" role="alert">
+          <h4 class="alert-heading">Oh no!</h4>
+          <p>Something went wrong! {{ error }}</p>
+
+          {% if not_available_seats|length > 0 %}
+            <p>These seats are not available anymore:</p>
+
+            <ul>
+              {% for seat in not_available_seats %}
+                <li>Row: {{ seat.row }}, Column: {{ seat.column }}</li>
+              {% endfor %}
+            </ul>
+
+            <p>Go back to the <a href="{{ url_for('home.seats', proj_id=request.form['proj_id']) }}">seat selection page</a></p>
+          {% endif %}
+
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'reserved_area/layout.html' %}
+
+
+{% block title %}
+  Purchase history
+{% endblock %}
+
+
+{% block content %}
+
+  <h1>Purchase history</h1>
+
+  <!-- tabella acquisti -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Purchase ID</th>
+        <th scope="col">Movie</th>
+        <th scope="col">Date</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Total</th>
+        <th scope="col">Number of tickets</th>
+        <th scope="col">Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for purchase_data in purchase_history %}
+        <tr>
+          <td>{{ purchase_data.id }}</td>
+          <td>{{ shorten_text(purchase_data.movie_title, 50) }}</td>
+          <td>{{ purchase_data.proj_datetime.date() }}</td>
+          <td>{{ purchase_data.proj_datetime.time() }}</td>
+          <td>{{ purchase_data.total }}</td>
+          <td>{{ purchase_data.ticket_count }}</td>
+          <td><a href="/reserved_area/purchase_history/{{ purchase_data['id'] }}">Details</a></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% endblock %}

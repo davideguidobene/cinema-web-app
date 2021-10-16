@@ -1,0 +1,37 @@
+{% extends 'reserved_area/layout.html' %}
+
+
+{% block title %}
+  Payment methods
+{% endblock %}
+
+
+{% block content %}
+
+  <h1>Payment methods</h1>
+
+  <!-- tabella metodi di pagamento -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Holder name</th>
+        <th scope="col">Card number</th>
+        <th scope="col">Expiration date</th>
+        <th scope="col">Payment circuit</th>
+        <th scope="col">Remove</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for payment_method in payment_methods %}
+        <tr>
+          <td>{{ payment_method.ownerName }}</td>
+          <td>{{ payment_method.cardNumber }}</td>
+          <td>{{ payment_method.expirationDate }}</td>
+          <td>{{ payment_method.paymentCircuit }}</td>
+          <td><a href="/reserved_area/payment_methods/remove/{{ payment_method['id'] }}">Remove</a></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends 'dash/layout.html' %}
+
+
+{% block title %}
+  Dashboard - Delete row from {{ table_name }}
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="container">
+
+    {% if tuple %}
+
+      <h1>Are you sure you want to delete this row?</h1>
+      <br/>
+
+      <ul>
+        {% for key, value in tuple.items() %}
+          <li>{{ key }}: {{ value }}</li>
+        {% endfor %}
+      </ul>
+
+      <form action="" method="POST">
+        {% for pk_name in primary_key_names %}
+          <input type="hidden" name="{{ pk_name }}" value="{{ tuple[pk_name] }}">
+        {% endfor %}
+        <button type="submit" class="btn btn-danger btn-lg btn-block">Delete</button>
+      </form>
+
+    {% else %}
+
+      <h1>Row deleted</h1>
+      <br/>
+
+      <a href="/dashboard/tables/{{ table_name }}">Go back to <span style="font-weight: bold;">{{ table_name }}</span></a>
+
+    {% endif %}
+
+  </div>
+
+{% endblock %}

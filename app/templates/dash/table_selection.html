@@ -1,0 +1,28 @@
+{% extends 'dash/layout.html' %}
+
+
+{% block title %}
+  Dashboard - Select table
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="container">
+
+    <h1>Select one of the following table</h1>
+    <br/>
+
+    {% if next == 'insert' %}
+      {% for table_name in table_names %}
+        <li><a href="/dashboard/tables/{{ table_name }}/insert">{{ table_name }}</a></li>
+      {% endfor %}
+    {% elif next == 'read' %}
+      {% for table_name in table_names %}
+        <li><a href="{{ url_for('dash.view_table', table_name=table_name, page=1, size=200) }}">{{ table_name }}</a></li>
+      {% endfor %}
+    {% endif %}
+
+  </div>
+
+{% endblock %}

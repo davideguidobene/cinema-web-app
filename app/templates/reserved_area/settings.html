@@ -1,0 +1,101 @@
+{% extends 'reserved_area/layout.html' %}
+
+
+{% block title %}
+  Settings - {{ current_user.get_id() }}
+{% endblock %}
+
+
+{% if not tuple %}
+  {% set tuple = {} %}
+{% endif %}
+
+
+{% block content %}
+  {{ super() }}
+
+  <div class="container">
+    <div class="form-container">
+      <h1 class="h3 mb-3 font-weight-normal">Settings</h1>
+
+      <!-- form aggiornamento informazioni utente -->
+      <form action="" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            id="name"
+            placeholder="Name"
+            value="{{ tuple.get('name', '') }}"
+            required
+            autofocus
+          >
+        </div>
+        <div class="form-group">
+          <label for="surname">Surname</label>
+          <input
+            type="text"
+            class="form-control"
+            name="surname"
+            id="surname"
+            placeholder="Surname"
+            value="{{ tuple.get('surname', '') }}"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            name="username"
+            id="username"
+            placeholder="Username"
+            value="{{ tuple.get('username', '') }}"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            id="email"
+            placeholder="Email"
+            value="{{ tuple.get('email', '') }}"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            id="password"
+            placeholder="Password"
+            {% if tuple == {} %} required {% endif %}
+          >
+        </div>
+        <div class="form-group">
+          <label for="birthdate">Birthdate</label>
+          <input
+            type="date"
+            class="form-control"
+            name="birthdate"
+            id="birthdate"
+            value="{{ tuple.get('birthdate', '') }}"
+            required
+          >
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Update</button>
+      </form>
+
+    </div>
+  </div>
+
+{% endblock %}

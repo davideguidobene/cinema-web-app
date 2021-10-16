@@ -1,0 +1,20 @@
+{% extends 'dash/insert_update_forms/layout.html' %}
+
+
+{% block form_content %}
+
+  <div class="form-group">
+    <label for="name">Payment circuit</label>
+    <input
+      type="text"
+      class="form-control"
+      name="name"
+      id="name"
+      placeholder="Payment circuit"
+      value="{{ tuple.get('name', '') }}"
+      required
+      autofocus
+    >
+  </div>
+
+{% endblock %}

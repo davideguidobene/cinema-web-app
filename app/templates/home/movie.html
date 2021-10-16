@@ -1,0 +1,78 @@
+{% extends 'home/layout.html' %}
+
+
+{% block title %}
+  Film -
+  {% if movie %}
+    {{ movie.title }}
+  {% else %}
+    not found
+  {% endif %}
+{% endblock %}
+
+
+{% block content %}
+  {{ super() }}
+
+  <div class="container">
+
+    {% if movie %}                          <!-- se il film esiste -->
+
+      <h1>{{ movie.title }}</h1>
+      <h3>Plot</h3>
+      <p>{{ movie.plot }}</p>
+      Genre: {{ movie.genre }}
+      <br>
+      Director: {{ movie.directorName }} {{ movie.directorSurname }}
+      <br>
+      Actors:
+      <ul>
+        {% for actor in actors %}
+          <li>{{ actor.name }} {{ actor.surname }}</li>
+        {% endfor %}
+      </ul>
+
+      Duration: {{ movie.duration }} min
+      <br>
+      Nation: {{ movie.nation }}
+      <br>
+      Release date: {{ movie.releaseDate }}
+      <br>
+      <br>
+
+
+      <!-- proiezioni future -->
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Hours</th>
+            <th scope="col">Price</th>
+            <th scope="col">Room</th>
+            <th scope="col">Seats</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for proj in projections %}
+            <tr>
+              <td>{{ proj.datetime.date() }}</td>
+              <td>{{ proj.datetime.time() }}</td>
+              <td>{{ proj.price }}</td>
+              <td>{{ proj.room }}</td>
+              <td><a href="/seats/{{ proj.id }}">Select seats</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+
+    {% else %}                              <!-- se il film non esiste -->
+
+      <h1>Movie not found</h1>
+
+    {% endif %}
+
+  </div>
+
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'home/layout.html' %}
+
+
+{% block title %}
+  Scelta posti
+{% endblock %}
+
+
+{% block content %}
+  {{ super() }}
+
+  <div class="container">
+    <div class="seats-chooser">
+
+      <h1>Select seats</h1>
+
+      <form action="/checkout" method="POST">
+
+        <!-- table of seats -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              {% for col_index in range(1, seats[0]|length + 1) %}
+                <th scope="col">{{ col_index }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for row_idx, row in enumerate(seats, 1) %}
+              <tr>
+                <th scope="row">{{ row_idx }}</th>
+                {% for col_idx, seat in enumerate(row, 1) %}
+                  <td>
+                    <div class="custom-control custom-checkbox">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="{{ str(row_idx) + ',' + str(col_idx) }}"
+                        name="{{ str(row_idx) + ',' + str(col_idx) }}"
+                        {% if not seat %}
+                          disabled
+                        {% endif %}
+                      >
+                      <label class="custom-control-label" for="{{ str(row_idx) + ',' + str(col_idx) }}">
+                    </div>
+                  </td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+        <!-- hidden form field to carry the projection_id -->
+        <input id="proj_id" name="proj_id" type="hidden" value="{{ proj_id }}">
+
+        <button type="submit" class="btn btn-primary btn-block">Select seats</button>
+      </form>
+    </div>
+  </div>
+
+{% endblock %}

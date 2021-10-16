@@ -1,0 +1,82 @@
+{% extends 'dash/layout.html' %}
+
+
+{% block title %}
+  Dashboard - {{ table_name }}
+{% endblock %}
+
+
+{% block content %}
+
+  <h1>{{ table_name }}</h1>
+
+  <!-- tabella -->
+  <table class="table">
+    <thead>
+      <tr>
+        {% for column_name in column_names %}
+          <th scope="col">{{ column_name }}</th>
+        {% endfor %}
+        <th scope="col">Update</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in table_tuples %}
+        <tr>
+          {% for column_name in column_names %}
+            <td>{{ shorten_text(row[column_name], 50) }}</td>
+          {% endfor %}
+
+          <!--  Update form -->
+          <form action="/dashboard/tables/{{ table_name }}/update" method="GET">
+            {% for pk_name in primary_key_names %}
+              <input type="hidden" name="{{ pk_name }}" value="{{ row[pk_name] }}">
+            {% endfor %}
+            <td>
+              <button
+                type="submit"
+                class="btn btn-outline-secondary"
+                {% if table_name in ['Purchase', 'Ticket'] %} disabled {% endif %}
+              >Update</button>
+            </td>
+          </form>
+
+          <!--  Delete form -->
+          <form action="/dashboard/tables/{{ table_name }}/delete" method="GET">
+            {% for pk_name in primary_key_names %}
+              <input type="hidden" name="{{ pk_name }}" value="{{ row[pk_name] }}">
+            {% endfor %}
+            <td>
+              <button
+                type="submit"
+                class="btn btn-outline-danger"
+                {% if table_name in ['Purchase', 'Ticket', 'User'] %} disabled {% endif %}
+              >Delete</button>
+            </td>
+          </form>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <!-- tasti di paginazione -->
+  <nav aria-label="Page navigation" style="margin: auto; width: 10%; padding: 10px;">
+    <ul class="pagination">
+      <li class="page-item {% if page == 1 %} disabled {% endif %}">
+        <a class="page-link" href="{{ url_for('dash.view_table', table_name=table_name, page=page-1, size=size) }}" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+
+      <li class="page-item"><a class="page-link" href="#">{{ page }}</a></li>
+
+      <li class="page-item {% if table_tuples|length < size %} disabled {% endif %}">
+        <a class="page-link" href="{{ url_for('dash.view_table', table_name=table_name, page=page+1, size=size) }}" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+{% endblock %}

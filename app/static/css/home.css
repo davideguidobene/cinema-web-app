@@ -1,0 +1,25 @@
+.movies-container {
+  padding: 5%;
+  padding-top: 1%;
+}
+
+.seats-chooser {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.checkout-form {
+  padding: 2%;
+}
+
+.inherit-color {
+  color: inherit;
+}
+
+.purchase-result {
+  padding: 5%;
+}
+
+.filter-form {
+  margin-bottom: 2%;
+}

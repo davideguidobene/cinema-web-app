@@ -1,0 +1,36 @@
+{% extends 'dash/insert_update_forms/layout.html' %}
+
+
+{% block form_content %}
+
+  <div class="form-group">
+    <label for="movie">Movie</label>
+    <select class="form-control" name="movie" id="movie" placeholder="Movie" required autofocus>
+      <option value=""></option>
+      {% for movie in additional_data.movies %}
+        <option
+          value="{{ movie.id }}"
+          {% if movie.id == tuple.get('movie', '') %} selected {% endif %}
+        >
+          {{ movie.id }} - {{ movie.title }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="actor">Actor</label>
+    <select class="form-control" name="actor" id="actor" placeholder="Actor" required>
+      <option value=""></option>
+      {% for actor in additional_data.actors %}
+        <option
+          value="{{ actor.id }}"
+          {% if actor.id == tuple.get('actor', '') %} selected {% endif %}
+        >
+        {{ actor.id }} - {{ actor.name }} {{ actor.surname }}
+      </option>
+      {% endfor %}
+    </select>
+  </div>
+
+{% endblock %}

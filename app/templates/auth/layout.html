@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+
+{% block title %}
+  Auth
+{% endblock %}
+
+
+{% block style %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+{% endblock %}
+
+
+{% block content %}
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="container">
+          <div class="alert-container">
+            <div class="alert alert-{{ category }}" role="alert">
+              {{ message }}
+            </div>
+          </div>
+      </div>
+    {% endfor %}
+  {% endwith %}
+
+{% endblock %}

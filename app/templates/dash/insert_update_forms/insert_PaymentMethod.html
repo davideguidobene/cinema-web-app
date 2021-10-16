@@ -1,0 +1,89 @@
+{% extends 'dash/insert_update_forms/layout.html' %}
+
+
+{% block form_content %}
+
+  <div class="form-group">
+    <label for="ownerName">Holder name</label>
+    <input
+      type="text"
+      class="form-control"
+      name="ownerName"
+      id="ownerName"
+      placeholder="Holder name"
+      value="{{ tuple.get('ownerName', '') }}"
+      required
+      autofocus
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="user">User</label>
+    <select class="form-control" name="user" id="user" placeholder="User" required>
+      <option value=""></option>
+      {% for user in additional_data.users %}
+        <option
+          value="{{ user.username }}"
+          {% if user.username == tuple.get('user', '') %} selected {% endif %}
+        >
+          {{ user.username }} - {{ user.name }} {{ user.surname }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="cardNumber">Card number</label>
+    <input
+      type="tel"
+      class="form-control"
+      name="cardNumber"
+      id="cardNumber"
+      placeholder="Card number"
+      value="{{ tuple.get('cardNumber', '') }}"
+      inputmode="numeric"
+      pattern="[0-9]{16}"
+      autocomplete="cc-number"
+      maxlength="16"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="expirationDate">Expiration date</label>
+    <input
+      type="date"
+      class="form-control"
+      name="expirationDate"
+      id="expirationDate"
+      value="{{ tuple.get('expirationDate', '') }}"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="paymentCircuit">Payment circuit</label>
+    <select class="form-control" name="paymentCircuit" id="paymentCircuit" placeholder="Payment circuit" required>
+      <option value=""></option>
+      {% for paymentCircuit in additional_data.payment_circuits %}
+        <option
+          value="{{ paymentCircuit.name }}"
+          {% if paymentCircuit.name == tuple.get('paymentCircuit', '') %} selected {% endif %}
+        >
+          {{ paymentCircuit.name }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <input
+    type="hidden"
+    name="isActive"
+    id="isActive"
+    {{  }}
+    {% if tuple.get('isActive', True) %}
+      value="on"
+    {% endif %}
+  >
+
+{% endblock %}

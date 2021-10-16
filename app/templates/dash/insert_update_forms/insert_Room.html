@@ -1,0 +1,68 @@
+{% extends 'dash/insert_update_forms/layout.html' %}
+
+
+{% block form_content %}
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      name="name"
+      id="name"
+      placeholder="Name"
+      value="{{ tuple.get('name', '') }}"
+      required
+      autofocus
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="numberOfRows">Number of rows</label>
+    <input
+      type="range"
+      class="form-control-range"
+      name="numberOfRows"
+      id="numberOfRows"
+      placeholder="Number of rows"
+      min="10" max="35" value="25" step="1"
+      value="{{ tuple.get('numberOfRows', '') }}"
+      onchange="updateText(this.value, 'numberOfRowsSpan');"
+      required
+    >
+    <span type="text" id="numberOfRowsSpan">25</span>
+  </div>
+
+  <div class="form-group">
+    <label for="numberOfColumns">Number of columns</label>
+    <input
+      type="range"
+      class="form-control-range"
+      name="numberOfColumns"
+      id="numberOfColumns"
+      placeholder="Number of columns"
+      min="10" max="20" value="15" step="1"
+      value="{{ tuple.get('numberOfColumns', '') }}"
+      onchange="updateText(this.value, 'numberOfColumnsSpan');"
+      required
+    >
+    <span type="text" id="numberOfColumnsSpan">15</span>
+  </div>
+
+  <div class="form-group">
+    <label for="screenSize">Screen size (inches)</label>
+    <input
+      type="range"
+      class="form-control-range"
+      name="screenSize"
+      id="screenSize"
+      placeholder="Screen size"
+      min="100" max="200" value="150" step="1"
+      value="{{ tuple.get('screenSize', '') }}"
+      onchange="updateText(this.value, 'screenSizeSpan');"
+      required
+    >
+    <span type="text" id="screenSizeSpan">150</span>
+  </div>
+
+{% endblock %}

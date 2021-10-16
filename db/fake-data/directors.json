@@ -1,0 +1,3662 @@
+[
+  {
+    "name": "James",
+    "surname": "Gray"
+  },
+  {
+    "name": "Andy",
+    "surname": "Fickman"
+  },
+  {
+    "name": "Om",
+    "surname": "Raut"
+  },
+  {
+    "name": "Jeff",
+    "surname": "Fowler"
+  },
+  {
+    "name": "Jeff",
+    "surname": "Baena"
+  },
+  {
+    "name": "Roland",
+    "surname": "Emmerich"
+  },
+  {
+    "name": "Rupert",
+    "surname": "Goold"
+  },
+  {
+    "name": "Andy",
+    "surname": "Muschietti"
+  },
+  {
+    "name": "Chad",
+    "surname": "Stahelski"
+  },
+  {
+    "name": "Oz",
+    "surname": "Perkins"
+  },
+  {
+    "name": "Terrence",
+    "surname": "Malick"
+  },
+  {
+    "name": "Cate",
+    "surname": "Shortland"
+  },
+  {
+    "name": "Michael",
+    "surname": "Dougherty"
+  },
+  {
+    "name": "Jake",
+    "surname": "Kasdan"
+  },
+  {
+    "name": "Marielle",
+    "surname": "Heller"
+  },
+  {
+    "name": "Alma",
+    "surname": "Harel"
+  },
+  {
+    "name": "Paul",
+    "surname": "Feig"
+  },
+  {
+    "name": "Nicolas",
+    "surname": "Pesce"
+  },
+  {
+    "name": "Olivia",
+    "surname": "Wilde"
+  },
+  {
+    "name": "Justin",
+    "surname": "Dec"
+  },
+  {
+    "name": "Denis",
+    "surname": "Villeneuve"
+  },
+  {
+    "name": "David",
+    "surname": "Michd"
+  },
+  {
+    "name": "Gillian",
+    "surname": "Armstrong"
+  },
+  {
+    "name": "Kasi",
+    "surname": "Lemmons"
+  },
+  {
+    "name": "Chlo",
+    "surname": "Zhao"
+  },
+  {
+    "name": "Matt",
+    "surname": "BettinelliOlpin"
+  },
+  {
+    "name": "Tyler",
+    "surname": "Gillett"
+  },
+  {
+    "name": "Miguel",
+    "surname": "Arteta"
+  },
+  {
+    "name": "Jeff",
+    "surname": "Wadlow"
+  },
+  {
+    "name": "Pedro",
+    "surname": "Almodvar"
+  },
+  {
+    "name": "Michael",
+    "surname": "Engler"
+  },
+  {
+    "name": "Peter",
+    "surname": "Berg"
+  },
+  {
+    "name": "Christopher",
+    "surname": "Nolan"
+  },
+  {
+    "name": "Terry",
+    "surname": "Gilliam"
+  },
+  {
+    "name": "Terry",
+    "surname": "Jones"
+  },
+  {
+    "name": "Adrian",
+    "surname": "Grunberg"
+  },
+  {
+    "name": "Frank",
+    "surname": "Darabont"
+  },
+  {
+    "name": "Jordan",
+    "surname": "Peele"
+  },
+  {
+    "name": "Lorcan",
+    "surname": "Finnegan"
+  },
+  {
+    "name": "Dexter",
+    "surname": "Fletcher"
+  },
+  {
+    "name": "Jon",
+    "surname": "Favreau"
+  },
+  {
+    "name": "Rian",
+    "surname": "Johnson"
+  },
+  {
+    "name": "Adam",
+    "surname": "Wingard"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Demme"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Levine"
+  },
+  {
+    "name": "Tyler",
+    "surname": "Nilson"
+  },
+  {
+    "name": "Michael",
+    "surname": "Schwartz"
+  },
+  {
+    "name": "Ericson",
+    "surname": "Core"
+  },
+  {
+    "name": "Chris",
+    "surname": "Columbus"
+  },
+  {
+    "name": "Jon",
+    "surname": "Watts"
+  },
+  {
+    "name": "Peter",
+    "surname": "Farrelly"
+  },
+  {
+    "name": "Martin",
+    "surname": "Scorsese"
+  },
+  {
+    "name": "Nick",
+    "surname": "Bruno"
+  },
+  {
+    "name": "Troy",
+    "surname": "Quane"
+  },
+  {
+    "name": "Cline",
+    "surname": "Sciamma"
+  },
+  {
+    "name": "Makoto",
+    "surname": "Shinkai"
+  },
+  {
+    "name": "George",
+    "surname": "Lucas"
+  },
+  {
+    "name": "David",
+    "surname": "Leitch"
+  },
+  {
+    "name": "Wilson",
+    "surname": "Yip"
+  },
+  {
+    "name": "David",
+    "surname": "Ayer"
+  },
+  {
+    "name": "Patty",
+    "surname": "Jenkins"
+  },
+  {
+    "name": "Joseph",
+    "surname": "Kosinski"
+  },
+  {
+    "name": "Dee",
+    "surname": "Rees"
+  },
+  {
+    "name": "Matt",
+    "surname": "Reeves"
+  },
+  {
+    "name": "Neil",
+    "surname": "Marshall"
+  },
+  {
+    "name": "Quentin",
+    "surname": "Tarantino"
+  },
+  {
+    "name": "Roger",
+    "surname": "Kumble"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Merchant"
+  },
+  {
+    "name": "Steven",
+    "surname": "Spielberg"
+  },
+  {
+    "name": "Brian",
+    "surname": "Helgeland"
+  },
+  {
+    "name": "Ben",
+    "surname": "Stiller"
+  },
+  {
+    "name": "Jeff",
+    "surname": "Chan"
+  },
+  {
+    "name": "Craig",
+    "surname": "Brewer"
+  },
+  {
+    "name": "Luca",
+    "surname": "Guadagnino"
+  },
+  {
+    "name": "James",
+    "surname": "Cameron"
+  },
+  {
+    "name": "Josh",
+    "surname": "Cooley"
+  },
+  {
+    "name": "Greg",
+    "surname": "Tiernan"
+  },
+  {
+    "name": "Conrad",
+    "surname": "Vernon"
+  },
+  {
+    "name": "Steven",
+    "surname": "Soderbergh"
+  },
+  {
+    "name": "Anna",
+    "surname": "Boden"
+  },
+  {
+    "name": "Ryan",
+    "surname": "Fleck"
+  },
+  {
+    "name": "Lana",
+    "surname": "Wilson"
+  },
+  {
+    "name": "Melina",
+    "surname": "Matsoukas"
+  },
+  {
+    "name": "Lulu",
+    "surname": "Wang"
+  },
+  {
+    "name": "Peter",
+    "surname": "Jackson"
+  },
+  {
+    "name": "Dave",
+    "surname": "Wilson"
+  },
+  {
+    "name": "John",
+    "surname": "Krasinski"
+  },
+  {
+    "name": "Stanley",
+    "surname": "Kubrick"
+  },
+  {
+    "name": "Greta",
+    "surname": "Gerwig"
+  },
+  {
+    "name": "Armando",
+    "surname": "Iannucci"
+  },
+  {
+    "name": "Chris",
+    "surname": "Sanders"
+  },
+  {
+    "name": "Jenny",
+    "surname": "Gage"
+  },
+  {
+    "name": "Ron",
+    "surname": "Underwood"
+  },
+  {
+    "name": "Ari",
+    "surname": "Aster"
+  },
+  {
+    "name": "Severin",
+    "surname": "Fiala"
+  },
+  {
+    "name": "Veronika",
+    "surname": "Franz"
+  },
+  {
+    "name": "Lana",
+    "surname": "Wachowski"
+  },
+  {
+    "name": "Lilly",
+    "surname": "Wachowski"
+  },
+  {
+    "name": "Robert",
+    "surname": "Rodriguez"
+  },
+  {
+    "name": "Chris",
+    "surname": "Renaud"
+  },
+  {
+    "name": "Jason",
+    "surname": "Reitman"
+  },
+  {
+    "name": "Sam",
+    "surname": "Mendes"
+  },
+  {
+    "name": "Bilall",
+    "surname": "Fallah"
+  },
+  {
+    "name": "Todd",
+    "surname": "Phillips"
+  },
+  {
+    "name": "Guy",
+    "surname": "Ritchie"
+  },
+  {
+    "name": "Taika",
+    "surname": "Waititi"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Gaghan"
+  },
+  {
+    "name": "Cathy",
+    "surname": "Yan"
+  },
+  {
+    "name": "JJ",
+    "surname": "Abrams"
+  },
+  {
+    "name": "Tim",
+    "surname": "Miller"
+  },
+  {
+    "name": "Tyler",
+    "surname": "Perry"
+  },
+  {
+    "name": "Noah",
+    "surname": "Baumbach"
+  },
+  {
+    "name": "Jay",
+    "surname": "Roach"
+  },
+  {
+    "name": "Benny",
+    "surname": "Safdie"
+  },
+  {
+    "name": "Josh",
+    "surname": "Safdie"
+  },
+  {
+    "name": "Robert",
+    "surname": "Eggers"
+  },
+  {
+    "name": "Mike",
+    "surname": "Flanagan"
+  },
+  {
+    "name": "Daniel",
+    "surname": "Espinosa"
+  },
+  {
+    "name": "Todd",
+    "surname": "Robinson"
+  },
+  {
+    "name": "Richard",
+    "surname": "Stanley"
+  },
+  {
+    "name": "William",
+    "surname": "Eubank"
+  },
+  {
+    "name": "Floria",
+    "surname": "Sigismondi"
+  },
+  {
+    "name": "Reed",
+    "surname": "Morano"
+  },
+  {
+    "name": "Michael",
+    "surname": "Bay"
+  },
+  {
+    "name": "James",
+    "surname": "Mangold"
+  },
+  {
+    "name": "Tom",
+    "surname": "Hooper"
+  },
+  {
+    "name": "Todd",
+    "surname": "Haynes"
+  },
+  {
+    "name": "Edward",
+    "surname": "Norton"
+  },
+  {
+    "name": "Brendan",
+    "surname": "Steere"
+  },
+  {
+    "name": "Fernando",
+    "surname": "Meirelles"
+  },
+  {
+    "name": "Clint",
+    "surname": "Eastwood"
+  },
+  {
+    "name": "Ruben",
+    "surname": "Fleischer"
+  },
+  {
+    "name": "Anthony",
+    "surname": "Russo"
+  },
+  {
+    "name": "Joe",
+    "surname": "Russo"
+  },
+  {
+    "name": "Joachim",
+    "surname": "Rnning"
+  },
+  {
+    "name": "Chris",
+    "surname": "Buck"
+  },
+  {
+    "name": "Jennifer",
+    "surname": "Lee"
+  },
+  {
+    "name": "Lorene",
+    "surname": "Scafaria"
+  },
+  {
+    "name": "Bill",
+    "surname": "Condon"
+  },
+  {
+    "name": "Ang",
+    "surname": "Lee"
+  },
+  {
+    "name": "Kevin",
+    "surname": "Smith"
+  },
+  {
+    "name": "Seth",
+    "surname": "Gordon"
+  },
+  {
+    "name": "Elizabeth",
+    "surname": "Banks"
+  },
+  {
+    "name": "Gene",
+    "surname": "Stupnitsky"
+  },
+  {
+    "name": "Bryan",
+    "surname": "Singer"
+  },
+  {
+    "name": "Christopher",
+    "surname": "McQuarrie"
+  },
+  {
+    "name": "Niki",
+    "surname": "Caro"
+  },
+  {
+    "name": "Gareth",
+    "surname": "Edwards"
+  },
+  {
+    "name": "Mark",
+    "surname": "Jenkin"
+  },
+  {
+    "name": "David",
+    "surname": "Fincher"
+  },
+  {
+    "name": "Tom",
+    "surname": "Harper"
+  },
+  {
+    "name": "Paco",
+    "surname": "Plaza"
+  },
+  {
+    "name": "James",
+    "surname": "Gunn"
+  },
+  {
+    "name": "Bob",
+    "surname": "Persichetti"
+  },
+  {
+    "name": "Peter",
+    "surname": "Ramsey"
+  },
+  {
+    "name": "Rodney",
+    "surname": "Rothman"
+  },
+  {
+    "name": "Michael",
+    "surname": "Mann"
+  },
+  {
+    "name": "Ron",
+    "surname": "Howard"
+  },
+  {
+    "name": "Ridley",
+    "surname": "Scott"
+  },
+  {
+    "name": "Justin",
+    "surname": "Lin"
+  },
+  {
+    "name": "Gille",
+    "surname": "Klabin"
+  },
+  {
+    "name": "Justin",
+    "surname": "Kurzel"
+  },
+  {
+    "name": "Danny",
+    "surname": "Boyle"
+  },
+  {
+    "name": "Jon",
+    "surname": "Lucas"
+  },
+  {
+    "name": "Scott",
+    "surname": "Moore"
+  },
+  {
+    "name": "Robert",
+    "surname": "Stromberg"
+  },
+  {
+    "name": "Randal",
+    "surname": "Kleiser"
+  },
+  {
+    "name": "James",
+    "surname": "Wan"
+  },
+  {
+    "name": "Deon",
+    "surname": "Taylor"
+  },
+  {
+    "name": "Tamara",
+    "surname": "Kotevska"
+  },
+  {
+    "name": "Ljubomir",
+    "surname": "Stefanov"
+  },
+  {
+    "name": "Srdjan",
+    "surname": "Spasojevic"
+  },
+  {
+    "name": "Zack",
+    "surname": "Snyder"
+  },
+  {
+    "name": "George",
+    "surname": "Miller"
+  },
+  {
+    "name": "Spike",
+    "surname": "Jonze"
+  },
+  {
+    "name": "Edgar",
+    "surname": "Wright"
+  },
+  {
+    "name": "Gaspar",
+    "surname": "No"
+  },
+  {
+    "name": "Marcus",
+    "surname": "Nispel"
+  },
+  {
+    "name": "Ryan",
+    "surname": "Coogler"
+  },
+  {
+    "name": "Jon",
+    "surname": "Stewart"
+  },
+  {
+    "name": "Sergio",
+    "surname": "Pablos"
+  },
+  {
+    "name": "David",
+    "surname": "Raymond"
+  },
+  {
+    "name": "Gary",
+    "surname": "Ross"
+  },
+  {
+    "name": "Simon",
+    "surname": "Kinberg"
+  },
+  {
+    "name": "Michael",
+    "surname": "Gracey"
+  },
+  {
+    "name": "John",
+    "surname": "Hughes"
+  },
+  {
+    "name": "John",
+    "surname": "Crowley"
+  },
+  {
+    "name": "Bradley",
+    "surname": "Cooper"
+  },
+  {
+    "name": "Joe",
+    "surname": "Wright"
+  },
+  {
+    "name": "Michael",
+    "surname": "Showalter"
+  },
+  {
+    "name": "Dennis",
+    "surname": "Dugan"
+  },
+  {
+    "name": "Josh",
+    "surname": "Boone"
+  },
+  {
+    "name": "Debamitra",
+    "surname": "Biswal"
+  },
+  {
+    "name": "Robert",
+    "surname": "Zemeckis"
+  },
+  {
+    "name": "Will",
+    "surname": "Forbes"
+  },
+  {
+    "name": "David",
+    "surname": "Lynch"
+  },
+  {
+    "name": "Luc",
+    "surname": "Besson"
+  },
+  {
+    "name": "David",
+    "surname": "Yates"
+  },
+  {
+    "name": "Leigh",
+    "surname": "Whannell"
+  },
+  {
+    "name": "Spike",
+    "surname": "Lee"
+  },
+  {
+    "name": "Meghna",
+    "surname": "Gulzar"
+  },
+  {
+    "name": "Josie",
+    "surname": "Rourke"
+  },
+  {
+    "name": "Sean",
+    "surname": "Anders"
+  },
+  {
+    "name": "Yorgos",
+    "surname": "Lanthimos"
+  },
+  {
+    "name": "Ivan",
+    "surname": "Reitman"
+  },
+  {
+    "name": "Mary",
+    "surname": "Harron"
+  },
+  {
+    "name": "Dome",
+    "surname": "Karukoski"
+  },
+  {
+    "name": "Simon",
+    "surname": "McQuoid"
+  },
+  {
+    "name": "Drew",
+    "surname": "Goddard"
+  },
+  {
+    "name": "Richard",
+    "surname": "Marquand"
+  },
+  {
+    "name": "Roger",
+    "surname": "Allers"
+  },
+  {
+    "name": "Rob",
+    "surname": "Minkoff"
+  },
+  {
+    "name": "Julia",
+    "surname": "Hart"
+  },
+  {
+    "name": "Dean",
+    "surname": "Parisot"
+  },
+  {
+    "name": "David",
+    "surname": "Yarovesky"
+  },
+  {
+    "name": "Damien",
+    "surname": "Chazelle"
+  },
+  {
+    "name": "Remo",
+    "surname": "DSouza"
+  },
+  {
+    "name": "Ron",
+    "surname": "Clements"
+  },
+  {
+    "name": "John",
+    "surname": "Musker"
+  },
+  {
+    "name": "Don",
+    "surname": "Hall"
+  },
+  {
+    "name": "Chris",
+    "surname": "Williams"
+  },
+  {
+    "name": "Ethan",
+    "surname": "Coen"
+  },
+  {
+    "name": "Joel",
+    "surname": "Coen"
+  },
+  {
+    "name": "Sam",
+    "surname": "TaylorJohnson"
+  },
+  {
+    "name": "Vince",
+    "surname": "Gilligan"
+  },
+  {
+    "name": "James",
+    "surname": "Kent"
+  },
+  {
+    "name": "Kitty",
+    "surname": "Green"
+  },
+  {
+    "name": "Chris",
+    "surname": "Addison"
+  },
+  {
+    "name": "Sergio",
+    "surname": "Leone"
+  },
+  {
+    "name": "Alan",
+    "surname": "Taylor"
+  },
+  {
+    "name": "Alex",
+    "surname": "Garland"
+  },
+  {
+    "name": "Jemaine",
+    "surname": "Clement"
+  },
+  {
+    "name": "Matthew",
+    "surname": "Vaughn"
+  },
+  {
+    "name": "Craig",
+    "surname": "Gillespie"
+  },
+  {
+    "name": "Richard",
+    "surname": "Curtis"
+  },
+  {
+    "name": "Martin",
+    "surname": "McDonagh"
+  },
+  {
+    "name": "Ladj",
+    "surname": "Ly"
+  },
+  {
+    "name": "Martin",
+    "surname": "Campbell"
+  },
+  {
+    "name": "Mel",
+    "surname": "Gibson"
+  },
+  {
+    "name": "Mark",
+    "surname": "Herman"
+  },
+  {
+    "name": "Richard",
+    "surname": "Donner"
+  },
+  {
+    "name": "Woody",
+    "surname": "Allen"
+  },
+  {
+    "name": "Benh",
+    "surname": "Zeitlin"
+  },
+  {
+    "name": "Rob",
+    "surname": "Letterman"
+  },
+  {
+    "name": "Darren",
+    "surname": "Aronofsky"
+  },
+  {
+    "name": "JA",
+    "surname": "Bayona"
+  },
+  {
+    "name": "Amar",
+    "surname": "Kaushik"
+  },
+  {
+    "name": "Kantemir",
+    "surname": "Balagov"
+  },
+  {
+    "name": "Tony",
+    "surname": "Scott"
+  },
+  {
+    "name": "Antoine",
+    "surname": "Fuqua"
+  },
+  {
+    "name": "Baz",
+    "surname": "Luhrmann"
+  },
+  {
+    "name": "James",
+    "surname": "Bobin"
+  },
+  {
+    "name": "Chris",
+    "surname": "Butler"
+  },
+  {
+    "name": "Jim",
+    "surname": "Jarmusch"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Chbosky"
+  },
+  {
+    "name": "Nicholas",
+    "surname": "McCarthy"
+  },
+  {
+    "name": "Tim",
+    "surname": "Burton"
+  },
+  {
+    "name": "Joe",
+    "surname": "Berlinger"
+  },
+  {
+    "name": "Joe",
+    "surname": "Johnston"
+  },
+  {
+    "name": "Adam",
+    "surname": "McKay"
+  },
+  {
+    "name": "Irvin",
+    "surname": "Kershner"
+  },
+  {
+    "name": "Hayao",
+    "surname": "Miyazaki"
+  },
+  {
+    "name": "Kyle",
+    "surname": "Newacheck"
+  },
+  {
+    "name": "Wes",
+    "surname": "Anderson"
+  },
+  {
+    "name": "Justin",
+    "surname": "Baldoni"
+  },
+  {
+    "name": "Lynne",
+    "surname": "Ramsay"
+  },
+  {
+    "name": "Jrmy",
+    "surname": "Clapin"
+  },
+  {
+    "name": "Adam",
+    "surname": "Robitel"
+  },
+  {
+    "name": "Joss",
+    "surname": "Whedon"
+  },
+  {
+    "name": "William",
+    "surname": "Castle"
+  },
+  {
+    "name": "Zach",
+    "surname": "Lipovsky"
+  },
+  {
+    "name": "Jill",
+    "surname": "Culton"
+  },
+  {
+    "name": "Todd",
+    "surname": "Wilderman"
+  },
+  {
+    "name": "Barry",
+    "surname": "Jenkins"
+  },
+  {
+    "name": "Espen",
+    "surname": "Sandberg"
+  },
+  {
+    "name": "Gil",
+    "surname": "Junger"
+  },
+  {
+    "name": "Glenn",
+    "surname": "Ficarra"
+  },
+  {
+    "name": "John",
+    "surname": "Requa"
+  },
+  {
+    "name": "Peter",
+    "surname": "Hewitt"
+  },
+  {
+    "name": "Yoshiyuki",
+    "surname": "Momose"
+  },
+  {
+    "name": "Charlie",
+    "surname": "Bean"
+  },
+  {
+    "name": "Lee",
+    "surname": "Unkrich"
+  },
+  {
+    "name": "Adrian",
+    "surname": "Molina"
+  },
+  {
+    "name": "Travis",
+    "surname": "Knight"
+  },
+  {
+    "name": "Jennifer",
+    "surname": "Kent"
+  },
+  {
+    "name": "Byron",
+    "surname": "Howard"
+  },
+  {
+    "name": "Rich",
+    "surname": "Moore"
+  },
+  {
+    "name": "Jared",
+    "surname": "Bush"
+  },
+  {
+    "name": "John",
+    "surname": "Landis"
+  },
+  {
+    "name": "Andr",
+    "surname": "vredal"
+  },
+  {
+    "name": "Mark",
+    "surname": "Waters"
+  },
+  {
+    "name": "Mike",
+    "surname": "Newell"
+  },
+  {
+    "name": "JC",
+    "surname": "Chandor"
+  },
+  {
+    "name": "Robert",
+    "surname": "Wise"
+  },
+  {
+    "name": "Gore",
+    "surname": "Verbinski"
+  },
+  {
+    "name": "Jim",
+    "surname": "Mickle"
+  },
+  {
+    "name": "Jonas",
+    "surname": "kerlund"
+  },
+  {
+    "name": "Chuck",
+    "surname": "Jones"
+  },
+  {
+    "name": "Aaron",
+    "surname": "Sorkin"
+  },
+  {
+    "name": "Steve",
+    "surname": "Antin"
+  },
+  {
+    "name": "William",
+    "surname": "Oldroyd"
+  },
+  {
+    "name": "Rob",
+    "surname": "Reiner"
+  },
+  {
+    "name": "Richard",
+    "surname": "Linklater"
+  },
+  {
+    "name": "Kenneth",
+    "surname": "Branagh"
+  },
+  {
+    "name": "Matt",
+    "surname": "Ross"
+  },
+  {
+    "name": "Nia",
+    "surname": "DaCosta"
+  },
+  {
+    "name": "Anthony",
+    "surname": "Minghella"
+  },
+  {
+    "name": "Brad",
+    "surname": "Anderson"
+  },
+  {
+    "name": "Mel",
+    "surname": "Stuart"
+  },
+  {
+    "name": "Shawn",
+    "surname": "Levy"
+  },
+  {
+    "name": "Neil",
+    "surname": "Burger"
+  },
+  {
+    "name": "Alexander",
+    "surname": "Payne"
+  },
+  {
+    "name": "Ricky",
+    "surname": "Gervais"
+  },
+  {
+    "name": "Matthew",
+    "surname": "Robinson"
+  },
+  {
+    "name": "Emile",
+    "surname": "Ardolino"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Sommers"
+  },
+  {
+    "name": "Cameron",
+    "surname": "Crowe"
+  },
+  {
+    "name": "Nicholas",
+    "surname": "Hytner"
+  },
+  {
+    "name": "Paul",
+    "surname": "Weitz"
+  },
+  {
+    "name": "Chris",
+    "surname": "Weitz"
+  },
+  {
+    "name": "Stuart",
+    "surname": "Baird"
+  },
+  {
+    "name": "Steve",
+    "surname": "McQueen"
+  },
+  {
+    "name": "Angelina",
+    "surname": "Jolie"
+  },
+  {
+    "name": "Wolfgang",
+    "surname": "Petersen"
+  },
+  {
+    "name": "Catherine",
+    "surname": "Hardwicke"
+  },
+  {
+    "name": "James",
+    "surname": "Foley"
+  },
+  {
+    "name": "Chanwook",
+    "surname": "Park"
+  },
+  {
+    "name": "Steve",
+    "surname": "Barron"
+  },
+  {
+    "name": "Lenny",
+    "surname": "Abrahamson"
+  },
+  {
+    "name": "Tate",
+    "surname": "Taylor"
+  },
+  {
+    "name": "Rob",
+    "surname": "Marshall"
+  },
+  {
+    "name": "Sidney",
+    "surname": "Lumet"
+  },
+  {
+    "name": "Eli",
+    "surname": "Roth"
+  },
+  {
+    "name": "Andy",
+    "surname": "Serkis"
+  },
+  {
+    "name": "Michael",
+    "surname": "Curtiz"
+  },
+  {
+    "name": "Riley",
+    "surname": "Stearns"
+  },
+  {
+    "name": "Andy",
+    "surname": "Newbery"
+  },
+  {
+    "name": "Adam",
+    "surname": "Randall"
+  },
+  {
+    "name": "Steven",
+    "surname": "Knight"
+  },
+  {
+    "name": "Susanne",
+    "surname": "Bier"
+  },
+  {
+    "name": "Milos",
+    "surname": "Forman"
+  },
+  {
+    "name": "Alfonso",
+    "surname": "Cuarn"
+  },
+  {
+    "name": "Sam",
+    "surname": "Raimi"
+  },
+  {
+    "name": "Alejandro",
+    "surname": "Landes"
+  },
+  {
+    "name": "Alexandre",
+    "surname": "Aja"
+  },
+  {
+    "name": "Nat",
+    "surname": "Faxon"
+  },
+  {
+    "name": "Jim",
+    "surname": "Rash"
+  },
+  {
+    "name": "Gavin",
+    "surname": "OConnor"
+  },
+  {
+    "name": "Tony",
+    "surname": "Kaye"
+  },
+  {
+    "name": "Sangho",
+    "surname": "Yeon"
+  },
+  {
+    "name": "Gavin",
+    "surname": "Hood"
+  },
+  {
+    "name": "Tomas",
+    "surname": "Alfredson"
+  },
+  {
+    "name": "Duncan",
+    "surname": "Jones"
+  },
+  {
+    "name": "Michel",
+    "surname": "Gondry"
+  },
+  {
+    "name": "Michael",
+    "surname": "Cimino"
+  },
+  {
+    "name": "Atom",
+    "surname": "Egoyan"
+  },
+  {
+    "name": "Garth",
+    "surname": "Jennings"
+  },
+  {
+    "name": "Christophe",
+    "surname": "Lourdelet"
+  },
+  {
+    "name": "Dean",
+    "surname": "DeBlois"
+  },
+  {
+    "name": "Nick",
+    "surname": "Cassavetes"
+  },
+  {
+    "name": "Michael",
+    "surname": "Fimognari"
+  },
+  {
+    "name": "Vincenzo",
+    "surname": "Natali"
+  },
+  {
+    "name": "John",
+    "surname": "Badham"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Glazer"
+  },
+  {
+    "name": "Dan",
+    "surname": "Gilroy"
+  },
+  {
+    "name": "Vincent",
+    "surname": "Kesteloot"
+  },
+  {
+    "name": "Ben",
+    "surname": "Stassen"
+  },
+  {
+    "name": "Alfred",
+    "surname": "Hitchcock"
+  },
+  {
+    "name": "Susan",
+    "surname": "Johnson"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Goldstein"
+  },
+  {
+    "name": "Simon",
+    "surname": "Curtis"
+  },
+  {
+    "name": "Tom",
+    "surname": "McCarthy"
+  },
+  {
+    "name": "Tony",
+    "surname": "Giglio"
+  },
+  {
+    "name": "Harmony",
+    "surname": "Korine"
+  },
+  {
+    "name": "Marc",
+    "surname": "Forster"
+  },
+  {
+    "name": "Nathan",
+    "surname": "Greno"
+  },
+  {
+    "name": "Colin",
+    "surname": "Trevorrow"
+  },
+  {
+    "name": "Roberto",
+    "surname": "Benigni"
+  },
+  {
+    "name": "John",
+    "surname": "Lasseter"
+  },
+  {
+    "name": "Michael",
+    "surname": "Chaves"
+  },
+  {
+    "name": "Nancy",
+    "surname": "Meyers"
+  },
+  {
+    "name": "Garth",
+    "surname": "Davis"
+  },
+  {
+    "name": "Ken",
+    "surname": "Loach"
+  },
+  {
+    "name": "David",
+    "surname": "Mackenzie"
+  },
+  {
+    "name": "Tarsem",
+    "surname": "Singh"
+  },
+  {
+    "name": "Sofia",
+    "surname": "Coppola"
+  },
+  {
+    "name": "Oriol",
+    "surname": "Paulo"
+  },
+  {
+    "name": "Frank",
+    "surname": "Miller"
+  },
+  {
+    "name": "DUrville",
+    "surname": "Martin"
+  },
+  {
+    "name": "Tinto",
+    "surname": "Brass"
+  },
+  {
+    "name": "Dean",
+    "surname": "Israelite"
+  },
+  {
+    "name": "Tobe",
+    "surname": "Hooper"
+  },
+  {
+    "name": "Garry",
+    "surname": "Marshall"
+  },
+  {
+    "name": "Tony",
+    "surname": "Cervone"
+  },
+  {
+    "name": "Francis",
+    "surname": "Lawrence"
+  },
+  {
+    "name": "Boaz",
+    "surname": "Yakin"
+  },
+  {
+    "name": "Brad",
+    "surname": "Bird"
+  },
+  {
+    "name": "Jan",
+    "surname": "Pinkava"
+  },
+  {
+    "name": "Ben",
+    "surname": "Affleck"
+  },
+  {
+    "name": "John",
+    "surname": "McTiernan"
+  },
+  {
+    "name": "Dan",
+    "surname": "Scanlon"
+  },
+  {
+    "name": "John",
+    "surname": "Hillcoat"
+  },
+  {
+    "name": "Alan",
+    "surname": "Parker"
+  },
+  {
+    "name": "Scott",
+    "surname": "Derrickson"
+  },
+  {
+    "name": "Mikhil",
+    "surname": "Musale"
+  },
+  {
+    "name": "Harry",
+    "surname": "Bradbeer"
+  },
+  {
+    "name": "Gerard",
+    "surname": "Bush"
+  },
+  {
+    "name": "Christopher",
+    "surname": "Renz"
+  },
+  {
+    "name": "Greg",
+    "surname": "Mottola"
+  },
+  {
+    "name": "Theodore",
+    "surname": "Melfi"
+  },
+  {
+    "name": "Brian",
+    "surname": "Kirk"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Mostow"
+  },
+  {
+    "name": "Abdellatif",
+    "surname": "Kechiche"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Erwin"
+  },
+  {
+    "name": "Jon",
+    "surname": "Erwin"
+  },
+  {
+    "name": "Mimi",
+    "surname": "Leder"
+  },
+  {
+    "name": "Howard",
+    "surname": "Deutch"
+  },
+  {
+    "name": "Marco",
+    "surname": "Bellocchio"
+  },
+  {
+    "name": "Richard",
+    "surname": "Kelly"
+  },
+  {
+    "name": "Pete",
+    "surname": "Docter"
+  },
+  {
+    "name": "Chris",
+    "surname": "McKay"
+  },
+  {
+    "name": "Tom",
+    "surname": "Ford"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Norrington"
+  },
+  {
+    "name": "Doug",
+    "surname": "Liman"
+  },
+  {
+    "name": "Panos",
+    "surname": "Cosmatos"
+  },
+  {
+    "name": "Jeff",
+    "surname": "Schaffer"
+  },
+  {
+    "name": "Alec",
+    "surname": "Berg"
+  },
+  {
+    "name": "David",
+    "surname": "Mandel"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Adamson"
+  },
+  {
+    "name": "Ktia",
+    "surname": "Lund"
+  },
+  {
+    "name": "Oliver",
+    "surname": "Stone"
+  },
+  {
+    "name": "Trivikram",
+    "surname": "Srinivas"
+  },
+  {
+    "name": "Otto",
+    "surname": "Bathurst"
+  },
+  {
+    "name": "Peter",
+    "surname": "Segal"
+  },
+  {
+    "name": "Victor",
+    "surname": "Fleming"
+  },
+  {
+    "name": "George",
+    "surname": "Cukor"
+  },
+  {
+    "name": "Mervyn",
+    "surname": "LeRoy"
+  },
+  {
+    "name": "Norman",
+    "surname": "Taurog"
+  },
+  {
+    "name": "Richard",
+    "surname": "Thorpe"
+  },
+  {
+    "name": "King",
+    "surname": "Vidor"
+  },
+  {
+    "name": "Ted",
+    "surname": "Kotcheff"
+  },
+  {
+    "name": "Tony",
+    "surname": "Bancroft"
+  },
+  {
+    "name": "Barry",
+    "surname": "Cook"
+  },
+  {
+    "name": "Emerald",
+    "surname": "Fennell"
+  },
+  {
+    "name": "Andy",
+    "surname": "Tennant"
+  },
+  {
+    "name": "Jon",
+    "surname": "Turteltaub"
+  },
+  {
+    "name": "Frank",
+    "surname": "Coraci"
+  },
+  {
+    "name": "James",
+    "surname": "McTeigue"
+  },
+  {
+    "name": "Scott",
+    "surname": "Cooper"
+  },
+  {
+    "name": "Paul",
+    "surname": "Verhoeven"
+  },
+  {
+    "name": "Shane",
+    "surname": "Black"
+  },
+  {
+    "name": "Robert",
+    "surname": "Luketic"
+  },
+  {
+    "name": "Princeton",
+    "surname": "Holt"
+  },
+  {
+    "name": "Ol",
+    "surname": "Parker"
+  },
+  {
+    "name": "Thomas",
+    "surname": "Carter"
+  },
+  {
+    "name": "Julius",
+    "surname": "Avery"
+  },
+  {
+    "name": "Jacques",
+    "surname": "Audiard"
+  },
+  {
+    "name": "Joe",
+    "surname": "Ranft"
+  },
+  {
+    "name": "Michael",
+    "surname": "Winterbottom"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Niccol"
+  },
+  {
+    "name": "PJ",
+    "surname": "Hogan"
+  },
+  {
+    "name": "Zackary",
+    "surname": "Adler"
+  },
+  {
+    "name": "Jason",
+    "surname": "Moore"
+  },
+  {
+    "name": "Waad",
+    "surname": "AlKateab"
+  },
+  {
+    "name": "Edward",
+    "surname": "Watts"
+  },
+  {
+    "name": "Grant",
+    "surname": "Sputore"
+  },
+  {
+    "name": "Alex",
+    "surname": "Kurtzman"
+  },
+  {
+    "name": "Susanna",
+    "surname": "Fogel"
+  },
+  {
+    "name": "John",
+    "surname": "Carpenter"
+  },
+  {
+    "name": "Adam",
+    "surname": "Shankman"
+  },
+  {
+    "name": "Morten",
+    "surname": "Tyldum"
+  },
+  {
+    "name": "Jim",
+    "surname": "Abrahams"
+  },
+  {
+    "name": "David",
+    "surname": "Zucker"
+  },
+  {
+    "name": "Jerry",
+    "surname": "Zucker"
+  },
+  {
+    "name": "Mike",
+    "surname": "Hodges"
+  },
+  {
+    "name": "Rob",
+    "surname": "Cohen"
+  },
+  {
+    "name": "Peyton",
+    "surname": "Reed"
+  },
+  {
+    "name": "Nisha",
+    "surname": "Ganatra"
+  },
+  {
+    "name": "Brad",
+    "surname": "Peyton"
+  },
+  {
+    "name": "Jim",
+    "surname": "Henson"
+  },
+  {
+    "name": "Olivier",
+    "surname": "Nakache"
+  },
+  {
+    "name": "ric",
+    "surname": "Toledano"
+  },
+  {
+    "name": "Taylor",
+    "surname": "Sheridan"
+  },
+  {
+    "name": "Christian",
+    "surname": "Rivers"
+  },
+  {
+    "name": "Paul",
+    "surname": "Greengrass"
+  },
+  {
+    "name": "Nicolai",
+    "surname": "Fuglsig"
+  },
+  {
+    "name": "Richard",
+    "surname": "Fleischer"
+  },
+  {
+    "name": "Robert",
+    "surname": "Stevenson"
+  },
+  {
+    "name": "Barry",
+    "surname": "Sonnenfeld"
+  },
+  {
+    "name": "Michael",
+    "surname": "Cuesta"
+  },
+  {
+    "name": "Will",
+    "surname": "Gluck"
+  },
+  {
+    "name": "Lasse",
+    "surname": "Hallstrm"
+  },
+  {
+    "name": "Kathryn",
+    "surname": "Bigelow"
+  },
+  {
+    "name": "Roman",
+    "surname": "Polanski"
+  },
+  {
+    "name": "Jordan",
+    "surname": "VogtRoberts"
+  },
+  {
+    "name": "Levan",
+    "surname": "Akin"
+  },
+  {
+    "name": "Anees",
+    "surname": "Bazmee"
+  },
+  {
+    "name": "Kenneth",
+    "surname": "Lonergan"
+  },
+  {
+    "name": "Tommy",
+    "surname": "Wiseau"
+  },
+  {
+    "name": "James",
+    "surname": "Franco"
+  },
+  {
+    "name": "David",
+    "surname": "Lowery"
+  },
+  {
+    "name": "Claire",
+    "surname": "Denis"
+  },
+  {
+    "name": "Roxann",
+    "surname": "Dawson"
+  },
+  {
+    "name": "Joseph",
+    "surname": "GordonLevitt"
+  },
+  {
+    "name": "Barry",
+    "surname": "Levinson"
+  },
+  {
+    "name": "Kinji",
+    "surname": "Fukasaku"
+  },
+  {
+    "name": "Toshio",
+    "surname": "Masuda"
+  },
+  {
+    "name": "Phil",
+    "surname": "Lord"
+  },
+  {
+    "name": "Christopher",
+    "surname": "Miller"
+  },
+  {
+    "name": "Casey",
+    "surname": "Affleck"
+  },
+  {
+    "name": "Walt",
+    "surname": "Dohrn"
+  },
+  {
+    "name": "JeanMarc",
+    "surname": "Valle"
+  },
+  {
+    "name": "Phil",
+    "surname": "Johnston"
+  },
+  {
+    "name": "Betty",
+    "surname": "Thomas"
+  },
+  {
+    "name": "Martha",
+    "surname": "Coolidge"
+  },
+  {
+    "name": "Thea",
+    "surname": "Sharrock"
+  },
+  {
+    "name": "Jaume",
+    "surname": "ColletSerra"
+  },
+  {
+    "name": "Mike",
+    "surname": "Mitchell"
+  },
+  {
+    "name": "Wes",
+    "surname": "Craven"
+  },
+  {
+    "name": "Anthony",
+    "surname": "Maras"
+  },
+  {
+    "name": "Andrea",
+    "surname": "Berloff"
+  },
+  {
+    "name": "Sean",
+    "surname": "Penn"
+  },
+  {
+    "name": "Akira",
+    "surname": "Kurosawa"
+  },
+  {
+    "name": "Nadine",
+    "surname": "Labaki"
+  },
+  {
+    "name": "Changdong",
+    "surname": "Lee"
+  },
+  {
+    "name": "Amy",
+    "surname": "Heckerling"
+  },
+  {
+    "name": "Dick",
+    "surname": "Richards"
+  },
+  {
+    "name": "Alejandro",
+    "surname": "Jodorowsky"
+  },
+  {
+    "name": "Johannes",
+    "surname": "Roberts"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Davis"
+  },
+  {
+    "name": "Joe",
+    "surname": "Talbot"
+  },
+  {
+    "name": "Marek",
+    "surname": "Kanievska"
+  },
+  {
+    "name": "Fede",
+    "surname": "Alvarez"
+  },
+  {
+    "name": "Bernardo",
+    "surname": "Bertolucci"
+  },
+  {
+    "name": "Yimou",
+    "surname": "Zhang"
+  },
+  {
+    "name": "Danny",
+    "surname": "DeVito"
+  },
+  {
+    "name": "Francesco",
+    "surname": "Cinquemani"
+  },
+  {
+    "name": "George",
+    "surname": "Gallo"
+  },
+  {
+    "name": "Abel",
+    "surname": "Ferrara"
+  },
+  {
+    "name": "Michael",
+    "surname": "Dowse"
+  },
+  {
+    "name": "James",
+    "surname": "Ponsoldt"
+  },
+  {
+    "name": "John",
+    "surname": "Rice"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Stanton"
+  },
+  {
+    "name": "Christian",
+    "surname": "Gudegast"
+  },
+  {
+    "name": "Pierre",
+    "surname": "Morel"
+  },
+  {
+    "name": "Kevin",
+    "surname": "Jarre"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Fleming"
+  },
+  {
+    "name": "Ciarn",
+    "surname": "Foy"
+  },
+  {
+    "name": "Sam",
+    "surname": "Wood"
+  },
+  {
+    "name": "Matt",
+    "surname": "Eskandari"
+  },
+  {
+    "name": "Jason",
+    "surname": "Cabell"
+  },
+  {
+    "name": "Michael",
+    "surname": "Noer"
+  },
+  {
+    "name": "David",
+    "surname": "Silverman"
+  },
+  {
+    "name": "Mike",
+    "surname": "Nichols"
+  },
+  {
+    "name": "Gurinder",
+    "surname": "Chadha"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Lynn"
+  },
+  {
+    "name": "Jake",
+    "surname": "Scott"
+  },
+  {
+    "name": "Caryn",
+    "surname": "Waechter"
+  },
+  {
+    "name": "Maria",
+    "surname": "Ripoll"
+  },
+  {
+    "name": "Roar",
+    "surname": "Uthaug"
+  },
+  {
+    "name": "Kevin",
+    "surname": "Costner"
+  },
+  {
+    "name": "Raja",
+    "surname": "Gosnell"
+  },
+  {
+    "name": "Nicholas",
+    "surname": "Stoller"
+  },
+  {
+    "name": "Juliano",
+    "surname": "Dornelles"
+  },
+  {
+    "name": "Ruben",
+    "surname": "stlund"
+  },
+  {
+    "name": "Kevin",
+    "surname": "Reynolds"
+  },
+  {
+    "name": "Vince",
+    "surname": "Marcello"
+  },
+  {
+    "name": "Lawrence",
+    "surname": "Kasdan"
+  },
+  {
+    "name": "Louis",
+    "surname": "Leterrier"
+  },
+  {
+    "name": "Bennett",
+    "surname": "Miller"
+  },
+  {
+    "name": "Allen",
+    "surname": "Coulter"
+  },
+  {
+    "name": "Benedict",
+    "surname": "Andrews"
+  },
+  {
+    "name": "David",
+    "surname": "Frankel"
+  },
+  {
+    "name": "Boots",
+    "surname": "Riley"
+  },
+  {
+    "name": "Vincent",
+    "surname": "DOnofrio"
+  },
+  {
+    "name": "Joel",
+    "surname": "Edgerton"
+  },
+  {
+    "name": "Roger",
+    "surname": "Michell"
+  },
+  {
+    "name": "Howard",
+    "surname": "Zieff"
+  },
+  {
+    "name": "Claire",
+    "surname": "McCarthy"
+  },
+  {
+    "name": "Richard",
+    "surname": "Shepard"
+  },
+  {
+    "name": "Peter",
+    "surname": "Weir"
+  },
+  {
+    "name": "Warren",
+    "surname": "Beatty"
+  },
+  {
+    "name": "Loveleen",
+    "surname": "Tandan"
+  },
+  {
+    "name": "Michael",
+    "surname": "Spierig"
+  },
+  {
+    "name": "Peter",
+    "surname": "Spierig"
+  },
+  {
+    "name": "Gabriele",
+    "surname": "Muccino"
+  },
+  {
+    "name": "Steven",
+    "surname": "Shainberg"
+  },
+  {
+    "name": "Nick",
+    "surname": "Powell"
+  },
+  {
+    "name": "Alfonso",
+    "surname": "GomezRejon"
+  },
+  {
+    "name": "Herbert",
+    "surname": "Ross"
+  },
+  {
+    "name": "Michael",
+    "surname": "Cristofer"
+  },
+  {
+    "name": "John",
+    "surname": "Milius"
+  },
+  {
+    "name": "Steven",
+    "surname": "Bognar"
+  },
+  {
+    "name": "Julia",
+    "surname": "Reichert"
+  },
+  {
+    "name": "Danny",
+    "surname": "Leiner"
+  },
+  {
+    "name": "Dave",
+    "surname": "Green"
+  },
+  {
+    "name": "Judd",
+    "surname": "Apatow"
+  },
+  {
+    "name": "Ry",
+    "surname": "RussoYoung"
+  },
+  {
+    "name": "Robert",
+    "surname": "Schwentke"
+  },
+  {
+    "name": "Walter",
+    "surname": "Hill"
+  },
+  {
+    "name": "Robin",
+    "surname": "Bissell"
+  },
+  {
+    "name": "Kevin",
+    "surname": "Klsch"
+  },
+  {
+    "name": "Dennis",
+    "surname": "Widmyer"
+  },
+  {
+    "name": "Edward",
+    "surname": "Zwick"
+  },
+  {
+    "name": "Abe",
+    "surname": "Forsythe"
+  },
+  {
+    "name": "Phillip",
+    "surname": "Noyce"
+  },
+  {
+    "name": "Gary",
+    "surname": "Dauberman"
+  },
+  {
+    "name": "Federico",
+    "surname": "Fellini"
+  },
+  {
+    "name": "David",
+    "surname": "Dobkin"
+  },
+  {
+    "name": "Adrian",
+    "surname": "Noble"
+  },
+  {
+    "name": "Neill",
+    "surname": "Blomkamp"
+  },
+  {
+    "name": "Gary",
+    "surname": "Wang"
+  },
+  {
+    "name": "Noah",
+    "surname": "Hawley"
+  },
+  {
+    "name": "William",
+    "surname": "Friedkin"
+  },
+  {
+    "name": "Harold",
+    "surname": "Ramis"
+  },
+  {
+    "name": "Babak",
+    "surname": "Najafi"
+  },
+  {
+    "name": "Stella",
+    "surname": "Meghie"
+  },
+  {
+    "name": "JeanPierre",
+    "surname": "Jeunet"
+  },
+  {
+    "name": "Babak",
+    "surname": "Anvari"
+  },
+  {
+    "name": "Bobby",
+    "surname": "Farrelly"
+  },
+  {
+    "name": "Vincent",
+    "surname": "Sherman"
+  },
+  {
+    "name": "Jennifer",
+    "surname": "Lynch"
+  },
+  {
+    "name": "Christian",
+    "surname": "Volckman"
+  },
+  {
+    "name": "Bob",
+    "surname": "Peterson"
+  },
+  {
+    "name": "Farhad",
+    "surname": "Safinia"
+  },
+  {
+    "name": "Vicky",
+    "surname": "Jenson"
+  },
+  {
+    "name": "Jeff",
+    "surname": "Tremaine"
+  },
+  {
+    "name": "Luis",
+    "surname": "Llosa"
+  },
+  {
+    "name": "Gideon",
+    "surname": "Raff"
+  },
+  {
+    "name": "Corneliu",
+    "surname": "Porumboiu"
+  },
+  {
+    "name": "Jan",
+    "surname": "Komasa"
+  },
+  {
+    "name": "James",
+    "surname": "Marsh"
+  },
+  {
+    "name": "Julio",
+    "surname": "Medem"
+  },
+  {
+    "name": "Alex",
+    "surname": "Proyas"
+  },
+  {
+    "name": "Sylvester",
+    "surname": "Stallone"
+  },
+  {
+    "name": "Donovan",
+    "surname": "Marsh"
+  },
+  {
+    "name": "Elem",
+    "surname": "Klimov"
+  },
+  {
+    "name": "Gary",
+    "surname": "Trousdale"
+  },
+  {
+    "name": "Kirk",
+    "surname": "Wise"
+  },
+  {
+    "name": "Stanley",
+    "surname": "Tong"
+  },
+  {
+    "name": "Giuseppe",
+    "surname": "Tornatore"
+  },
+  {
+    "name": "Paul",
+    "surname": "Haggis"
+  },
+  {
+    "name": "Kriv",
+    "surname": "Stenders"
+  },
+  {
+    "name": "Penny",
+    "surname": "Marshall"
+  },
+  {
+    "name": "Arthur",
+    "surname": "Hiller"
+  },
+  {
+    "name": "Chuck",
+    "surname": "Russell"
+  },
+  {
+    "name": "Elise",
+    "surname": "Duran"
+  },
+  {
+    "name": "Tigran",
+    "surname": "Sahakyan"
+  },
+  {
+    "name": "Rowdy",
+    "surname": "Herrington"
+  },
+  {
+    "name": "Marc",
+    "surname": "Webb"
+  },
+  {
+    "name": "Raj",
+    "surname": "Mehta"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Dayton"
+  },
+  {
+    "name": "Valerie",
+    "surname": "Faris"
+  },
+  {
+    "name": "Mike",
+    "surname": "Judge"
+  },
+  {
+    "name": "Dave",
+    "surname": "Filoni"
+  },
+  {
+    "name": "Takashi",
+    "surname": "Otsuka"
+  },
+  {
+    "name": "Curtis",
+    "surname": "Hanson"
+  },
+  {
+    "name": "Derek",
+    "surname": "Cianfrance"
+  },
+  {
+    "name": "Jonah",
+    "surname": "Hill"
+  },
+  {
+    "name": "Marc",
+    "surname": "Munden"
+  },
+  {
+    "name": "Martin",
+    "surname": "Brest"
+  },
+  {
+    "name": "Luke",
+    "surname": "Greenfield"
+  },
+  {
+    "name": "Corin",
+    "surname": "Hardy"
+  },
+  {
+    "name": "Neil",
+    "surname": "Jordan"
+  },
+  {
+    "name": "Michael",
+    "surname": "Lehmann"
+  },
+  {
+    "name": "Todd",
+    "surname": "StraussSchulson"
+  },
+  {
+    "name": "Sean",
+    "surname": "Baker"
+  },
+  {
+    "name": "Martin",
+    "surname": "Zandvliet"
+  },
+  {
+    "name": "Steven",
+    "surname": "Brill"
+  },
+  {
+    "name": "Gary",
+    "surname": "Fleder"
+  },
+  {
+    "name": "Stefano",
+    "surname": "Sollima"
+  },
+  {
+    "name": "Ava",
+    "surname": "DuVernay"
+  },
+  {
+    "name": "Martin",
+    "surname": "Ritt"
+  },
+  {
+    "name": "Adrian",
+    "surname": "Lyne"
+  },
+  {
+    "name": "Ruggero",
+    "surname": "Deodato"
+  },
+  {
+    "name": "Dan",
+    "surname": "Trachtenberg"
+  },
+  {
+    "name": "Phyllida",
+    "surname": "Lloyd"
+  },
+  {
+    "name": "Mark",
+    "surname": "Andrews"
+  },
+  {
+    "name": "Brenda",
+    "surname": "Chapman"
+  },
+  {
+    "name": "Steve",
+    "surname": "Purcell"
+  },
+  {
+    "name": "Eddie",
+    "surname": "Mensore"
+  },
+  {
+    "name": "Tom",
+    "surname": "Tykwer"
+  },
+  {
+    "name": "Wash",
+    "surname": "Westmoreland"
+  },
+  {
+    "name": "Baltasar",
+    "surname": "Kormkur"
+  },
+  {
+    "name": "David",
+    "surname": "Wain"
+  },
+  {
+    "name": "Nzingha",
+    "surname": "Stewart"
+  },
+  {
+    "name": "Roger",
+    "surname": "Donaldson"
+  },
+  {
+    "name": "Aleksandr",
+    "surname": "Boguslavskiy"
+  },
+  {
+    "name": "Daniel",
+    "surname": "Alfredson"
+  },
+  {
+    "name": "Wayne",
+    "surname": "Roberts"
+  },
+  {
+    "name": "Janicza",
+    "surname": "Bravo"
+  },
+  {
+    "name": "John",
+    "surname": "Frankenheimer"
+  },
+  {
+    "name": "Hallie",
+    "surname": "MeyersShyer"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Frakes"
+  },
+  {
+    "name": "Rob",
+    "surname": "Zombie"
+  },
+  {
+    "name": "May",
+    "surname": "elToukhy"
+  },
+  {
+    "name": "Larry",
+    "surname": "Clark"
+  },
+  {
+    "name": "Isao",
+    "surname": "Takahata"
+  },
+  {
+    "name": "Glenn",
+    "surname": "Leyburn"
+  },
+  {
+    "name": "Nicholaus",
+    "surname": "Goossen"
+  },
+  {
+    "name": "Karyn",
+    "surname": "Kusama"
+  },
+  {
+    "name": "Simon",
+    "surname": "Wincer"
+  },
+  {
+    "name": "Giuseppe",
+    "surname": "Capotondi"
+  },
+  {
+    "name": "Rupert",
+    "surname": "Sanders"
+  },
+  {
+    "name": "Joel",
+    "surname": "Schumacher"
+  },
+  {
+    "name": "James",
+    "surname": "Ivory"
+  },
+  {
+    "name": "Jeff",
+    "surname": "Tomsic"
+  },
+  {
+    "name": "Joe",
+    "surname": "Penna"
+  },
+  {
+    "name": "Gary",
+    "surname": "Shore"
+  },
+  {
+    "name": "Randall",
+    "surname": "Wallace"
+  },
+  {
+    "name": "Scott",
+    "surname": "Frank"
+  },
+  {
+    "name": "Ken",
+    "surname": "Hughes"
+  },
+  {
+    "name": "Jon",
+    "surname": "Amiel"
+  },
+  {
+    "name": "Thomas",
+    "surname": "Vinterberg"
+  },
+  {
+    "name": "Wolfgang",
+    "surname": "Reitherman"
+  },
+  {
+    "name": "Louie",
+    "surname": "Psihoyos"
+  },
+  {
+    "name": "Kim",
+    "surname": "Farrant"
+  },
+  {
+    "name": "Gregory",
+    "surname": "Hoblit"
+  },
+  {
+    "name": "Anne",
+    "surname": "Fletcher"
+  },
+  {
+    "name": "Christopher",
+    "surname": "Landon"
+  },
+  {
+    "name": "Phil",
+    "surname": "Karlson"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Herek"
+  },
+  {
+    "name": "Ted",
+    "surname": "Demme"
+  },
+  {
+    "name": "Patricia",
+    "surname": "Rozema"
+  },
+  {
+    "name": "Eugene",
+    "surname": "Kotlyarenko"
+  },
+  {
+    "name": "George",
+    "surname": "Clooney"
+  },
+  {
+    "name": "Vincent",
+    "surname": "Ward"
+  },
+  {
+    "name": "Ralph",
+    "surname": "Nelson"
+  },
+  {
+    "name": "Mel",
+    "surname": "Brooks"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Cedars"
+  },
+  {
+    "name": "Benji",
+    "surname": "Kleiman"
+  },
+  {
+    "name": "Frank",
+    "surname": "Capra"
+  },
+  {
+    "name": "Michael",
+    "surname": "Mak"
+  },
+  {
+    "name": "Daniel",
+    "surname": "Stern"
+  },
+  {
+    "name": "George",
+    "surname": "Stevens"
+  },
+  {
+    "name": "Dylan",
+    "surname": "Brown"
+  },
+  {
+    "name": "Steven",
+    "surname": "Lisberger"
+  },
+  {
+    "name": "Tim",
+    "surname": "Hill"
+  },
+  {
+    "name": "JD",
+    "surname": "Dillard"
+  },
+  {
+    "name": "Wes",
+    "surname": "Ball"
+  },
+  {
+    "name": "Brian",
+    "surname": "Levant"
+  },
+  {
+    "name": "Michael",
+    "surname": "Pressman"
+  },
+  {
+    "name": "Tim",
+    "surname": "Story"
+  },
+  {
+    "name": "Angus",
+    "surname": "MacLane"
+  },
+  {
+    "name": "Josh",
+    "surname": "Trank"
+  },
+  {
+    "name": "William",
+    "surname": "Kaufman"
+  },
+  {
+    "name": "April",
+    "surname": "Mullen"
+  },
+  {
+    "name": "Carol",
+    "surname": "Reed"
+  },
+  {
+    "name": "Joanna",
+    "surname": "Hogg"
+  },
+  {
+    "name": "Jim",
+    "surname": "Sharman"
+  },
+  {
+    "name": "David",
+    "surname": "Lean"
+  },
+  {
+    "name": "Kay",
+    "surname": "Cannon"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Hopkins"
+  },
+  {
+    "name": "Heitor",
+    "surname": "Dhalia"
+  },
+  {
+    "name": "Russell",
+    "surname": "Owen"
+  },
+  {
+    "name": "Fred",
+    "surname": "Durst"
+  },
+  {
+    "name": "Tom",
+    "surname": "Shadyac"
+  },
+  {
+    "name": "Richard",
+    "surname": "Williams"
+  },
+  {
+    "name": "Russell",
+    "surname": "Mulcahy"
+  },
+  {
+    "name": "Robert",
+    "surname": "Altman"
+  },
+  {
+    "name": "Hugh",
+    "surname": "Wilson"
+  },
+  {
+    "name": "Patrick",
+    "surname": "Hughes"
+  },
+  {
+    "name": "Lee",
+    "surname": "Tamahori"
+  },
+  {
+    "name": "David",
+    "surname": "Dinetz"
+  },
+  {
+    "name": "Dylan",
+    "surname": "Trussell"
+  },
+  {
+    "name": "Zoya",
+    "surname": "Akhtar"
+  },
+  {
+    "name": "Dibakar",
+    "surname": "Banerjee"
+  },
+  {
+    "name": "Karan",
+    "surname": "Johar"
+  },
+  {
+    "name": "Anurag",
+    "surname": "Kashyap"
+  },
+  {
+    "name": "Julia",
+    "surname": "Leigh"
+  },
+  {
+    "name": "Jared",
+    "surname": "Hess"
+  },
+  {
+    "name": "Dominic",
+    "surname": "Brigstocke"
+  },
+  {
+    "name": "Eric",
+    "surname": "Bress"
+  },
+  {
+    "name": "Scott",
+    "surname": "Beck"
+  },
+  {
+    "name": "Bryan",
+    "surname": "Woods"
+  },
+  {
+    "name": "Michael",
+    "surname": "CatonJones"
+  },
+  {
+    "name": "Greg",
+    "surname": "McLean"
+  },
+  {
+    "name": "Stewart",
+    "surname": "Raffill"
+  },
+  {
+    "name": "Allan",
+    "surname": "Moyle"
+  },
+  {
+    "name": "Lin",
+    "surname": "Oeding"
+  },
+  {
+    "name": "Yarrow",
+    "surname": "Cheney"
+  },
+  {
+    "name": "Peter",
+    "surname": "Landesman"
+  },
+  {
+    "name": "Norman",
+    "surname": "Jewison"
+  },
+  {
+    "name": "Dean",
+    "surname": "Devlin"
+  },
+  {
+    "name": "Christian",
+    "surname": "Ditter"
+  },
+  {
+    "name": "Brad",
+    "surname": "Furman"
+  },
+  {
+    "name": "Mark",
+    "surname": "Rosman"
+  },
+  {
+    "name": "Pella",
+    "surname": "Kagerman"
+  },
+  {
+    "name": "Hugo",
+    "surname": "Lilja"
+  },
+  {
+    "name": "John",
+    "surname": "Sturges"
+  },
+  {
+    "name": "Troy",
+    "surname": "Duffy"
+  },
+  {
+    "name": "Crispian",
+    "surname": "Mills"
+  },
+  {
+    "name": "John",
+    "surname": "Boorman"
+  },
+  {
+    "name": "Zak",
+    "surname": "Hilditch"
+  },
+  {
+    "name": "Lars",
+    "surname": "Klevberg"
+  },
+  {
+    "name": "Carol",
+    "surname": "Morley"
+  },
+  {
+    "name": "Steve",
+    "surname": "Carr"
+  },
+  {
+    "name": "Rusty",
+    "surname": "Cundieff"
+  },
+  {
+    "name": "James",
+    "surname": "Duffy"
+  },
+  {
+    "name": "Griffin",
+    "surname": "Dunne"
+  },
+  {
+    "name": "Patrik",
+    "surname": "Forsberg"
+  },
+  {
+    "name": "Will",
+    "surname": "Graham"
+  },
+  {
+    "name": "Brett",
+    "surname": "Ratner"
+  },
+  {
+    "name": "Bob",
+    "surname": "Odenkirk"
+  },
+  {
+    "name": "Simon",
+    "surname": "Fellows"
+  },
+  {
+    "name": "Alice",
+    "surname": "Waddington"
+  },
+  {
+    "name": "John",
+    "surname": "Madden"
+  },
+  {
+    "name": "Peter",
+    "surname": "Chelsom"
+  },
+  {
+    "name": "John",
+    "surname": "Singleton"
+  },
+  {
+    "name": "Tommy",
+    "surname": "Wirkola"
+  },
+  {
+    "name": "Ali",
+    "surname": "Abbasi"
+  },
+  {
+    "name": "Kenny",
+    "surname": "Ortega"
+  },
+  {
+    "name": "Mike",
+    "surname": "Gabriel"
+  },
+  {
+    "name": "Eric",
+    "surname": "Goldberg"
+  },
+  {
+    "name": "Chris",
+    "surname": "Henchy"
+  },
+  {
+    "name": "John",
+    "surname": "McNaughton"
+  },
+  {
+    "name": "Otto",
+    "surname": "Preminger"
+  },
+  {
+    "name": "Ash",
+    "surname": "Brannon"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Dominik"
+  },
+  {
+    "name": "Jeremiah",
+    "surname": "Kipp"
+  },
+  {
+    "name": "Debra",
+    "surname": "Granik"
+  },
+  {
+    "name": "Peter",
+    "surname": "Godfrey"
+  },
+  {
+    "name": "Rajkumar",
+    "surname": "Hirani"
+  },
+  {
+    "name": "Lszl",
+    "surname": "Nemes"
+  },
+  {
+    "name": "Dan",
+    "surname": "Kwan"
+  },
+  {
+    "name": "Daniel",
+    "surname": "Scheinert"
+  },
+  {
+    "name": "Tom",
+    "surname": "Six"
+  },
+  {
+    "name": "Roger",
+    "surname": "Vadim"
+  },
+  {
+    "name": "David",
+    "surname": "Cronenberg"
+  },
+  {
+    "name": "Dan",
+    "surname": "Fogelman"
+  },
+  {
+    "name": "Ajai",
+    "surname": "Vasudev"
+  },
+  {
+    "name": "Joel",
+    "surname": "Gallen"
+  },
+  {
+    "name": "Paolo",
+    "surname": "Sorrentino"
+  },
+  {
+    "name": "Orson",
+    "surname": "Welles"
+  },
+  {
+    "name": "J",
+    "surname": "Blakeson"
+  },
+  {
+    "name": "Luke",
+    "surname": "Snellin"
+  },
+  {
+    "name": "Theo",
+    "surname": "Davies"
+  },
+  {
+    "name": "Greg",
+    "surname": "Barker"
+  },
+  {
+    "name": "Pascal",
+    "surname": "Laugier"
+  },
+  {
+    "name": "Michael",
+    "surname": "Apted"
+  },
+  {
+    "name": "Evan",
+    "surname": "Goldberg"
+  },
+  {
+    "name": "Seth",
+    "surname": "Rogen"
+  },
+  {
+    "name": "Trevor",
+    "surname": "Nunn"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Hensleigh"
+  },
+  {
+    "name": "Mati",
+    "surname": "Diop"
+  },
+  {
+    "name": "James",
+    "surname": "Whale"
+  },
+  {
+    "name": "Jerome",
+    "surname": "Robbins"
+  },
+  {
+    "name": "Kelly",
+    "surname": "Reichardt"
+  },
+  {
+    "name": "Henry",
+    "surname": "Hathaway"
+  },
+  {
+    "name": "Aneesh",
+    "surname": "Chaganty"
+  },
+  {
+    "name": "Jay",
+    "surname": "Chandrasekhar"
+  },
+  {
+    "name": "Brad",
+    "surname": "Silberling"
+  },
+  {
+    "name": "Nikolaj",
+    "surname": "Arcel"
+  },
+  {
+    "name": "Vi",
+    "surname": "Anand"
+  },
+  {
+    "name": "Hirokazu",
+    "surname": "Koreeda"
+  },
+  {
+    "name": "Joe",
+    "surname": "Dante"
+  },
+  {
+    "name": "Zach",
+    "surname": "Braff"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Frears"
+  },
+  {
+    "name": "Gary",
+    "surname": "Winick"
+  },
+  {
+    "name": "Elia",
+    "surname": "Kazan"
+  },
+  {
+    "name": "Len",
+    "surname": "Wiseman"
+  },
+  {
+    "name": "Taylor",
+    "surname": "Hackford"
+  },
+  {
+    "name": "Paul",
+    "surname": "King"
+  },
+  {
+    "name": "Gary",
+    "surname": "Nelson"
+  },
+  {
+    "name": "Oleg",
+    "surname": "Stepchenko"
+  },
+  {
+    "name": "Jeffrey",
+    "surname": "Nachmanoff"
+  },
+  {
+    "name": "Peter",
+    "surname": "Bogdanovich"
+  },
+  {
+    "name": "John",
+    "surname": "Schlesinger"
+  },
+  {
+    "name": "Joe",
+    "surname": "Cornish"
+  },
+  {
+    "name": "Larry",
+    "surname": "Charles"
+  },
+  {
+    "name": "George",
+    "surname": "Pal"
+  },
+  {
+    "name": "Tom",
+    "surname": "Hanks"
+  },
+  {
+    "name": "Vaughn",
+    "surname": "Stein"
+  },
+  {
+    "name": "Jen",
+    "surname": "Soska"
+  },
+  {
+    "name": "Sylvia",
+    "surname": "Soska"
+  },
+  {
+    "name": "Vincente",
+    "surname": "Minnelli"
+  },
+  {
+    "name": "Scott",
+    "surname": "Aukerman"
+  },
+  {
+    "name": "John",
+    "surname": "Ford"
+  },
+  {
+    "name": "Anil",
+    "surname": "Ravipudi"
+  },
+  {
+    "name": "David",
+    "surname": "Bruckner"
+  },
+  {
+    "name": "Ken",
+    "surname": "Kwapis"
+  },
+  {
+    "name": "Greg",
+    "surname": "Berlanti"
+  },
+  {
+    "name": "Peter",
+    "surname": "Sullivan"
+  },
+  {
+    "name": "Aleksandr",
+    "surname": "Chernyaev"
+  },
+  {
+    "name": "Chris",
+    "surname": "Foggin"
+  },
+  {
+    "name": "Stephen",
+    "surname": "Daldry"
+  },
+  {
+    "name": "Csar",
+    "surname": "Rodrigues"
+  },
+  {
+    "name": "Simon",
+    "surname": "Wells"
+  },
+  {
+    "name": "Jeremy",
+    "surname": "Saulnier"
+  },
+  {
+    "name": "Nahnatchka",
+    "surname": "Khan"
+  },
+  {
+    "name": "Cedric",
+    "surname": "NicolasTroyan"
+  },
+  {
+    "name": "Kyle",
+    "surname": "Balda"
+  },
+  {
+    "name": "Brad",
+    "surname": "Ableson"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Bowler"
+  },
+  {
+    "name": "Kevin",
+    "surname": "Lima"
+  },
+  {
+    "name": "Tanya",
+    "surname": "Wexler"
+  },
+  {
+    "name": "James",
+    "surname": "Wong"
+  },
+  {
+    "name": "Billy",
+    "surname": "Wilder"
+  },
+  {
+    "name": "David",
+    "surname": "Swift"
+  },
+  {
+    "name": "Julius",
+    "surname": "Onah"
+  },
+  {
+    "name": "Kristoffer",
+    "surname": "Nyholm"
+  },
+  {
+    "name": "Charles",
+    "surname": "Crichton"
+  },
+  {
+    "name": "John",
+    "surname": "Cleese"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Rhymer"
+  },
+  {
+    "name": "Bo",
+    "surname": "Burnham"
+  },
+  {
+    "name": "Sergei",
+    "surname": "Bodrov"
+  },
+  {
+    "name": "JeanJacques",
+    "surname": "Annaud"
+  },
+  {
+    "name": "Breck",
+    "surname": "Eisner"
+  },
+  {
+    "name": "John",
+    "surname": "Herzfeld"
+  },
+  {
+    "name": "Edward",
+    "surname": "Dmytryk"
+  },
+  {
+    "name": "Jonathan",
+    "surname": "Liebesman"
+  },
+  {
+    "name": "Kemp",
+    "surname": "Powers"
+  },
+  {
+    "name": "Mike",
+    "surname": "Figgis"
+  },
+  {
+    "name": "Seth",
+    "surname": "Green"
+  },
+  {
+    "name": "Nitesh",
+    "surname": "Tiwari"
+  }
+]

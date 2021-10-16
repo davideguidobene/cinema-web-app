@@ -1,0 +1,116 @@
+{% extends 'dash/insert_update_forms/layout.html' %}
+
+
+{% block form_content %}
+
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input
+      type="text"
+      class="form-control"
+      name="title"
+      id="title"
+      placeholder="Title"
+      value="{{ tuple.get('title', '') }}"
+      required
+      autofocus
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="director">Director</label>
+    <select class="form-control" name="director" id="director" placeholder="Director" required>
+      <option value=""></option>
+      {% for director in additional_data.directors %}
+        <option
+          value="{{ director.id }}"
+          {% if director.id == tuple.get('director', '') %} selected {% endif %}
+        >
+          {{ director.id }} - {{ director.name }} {{ director.surname }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="plot">Plot</label>
+    <textarea
+      class="form-control"
+      name="plot"
+      id="plot"
+      rows="3"
+      placeholder="Plot"
+      required
+    >{{ tuple.get('plot', '') }}</textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="duration">Duration (min)</label>
+    <input
+      type="number"
+      class="form-control"
+      name="duration"
+      id="duration"
+      placeholder="Duration"
+      min="1" max="600" step="1"
+      value="{{ tuple.get('duration', '') }}"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="genre">Genre</label>
+    <select class="form-control" name="genre" id="genre" placeholder="Genre" required>
+      <option value=""></option>
+      {% for genre in additional_data.genres %}
+        <option
+          value="{{ genre.name }}"
+          {% if genre.name == tuple.get('genre', '') %} selected {% endif %}
+        >
+          {{ genre.name }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="nation">Nation</label>
+    <select class="form-control" name="nation" id="nation" placeholder="Nation" required>
+      <option value=""></option>
+      {% for nation in additional_data.nations %}
+        <option
+          value="{{ nation.name }}"
+          {% if nation.name == tuple.get('nation', '') %} selected {% endif %}
+        >
+          {{ nation.name }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="releaseDate">Release date</label>
+    <input
+      type="date"
+      class="form-control"
+      name="releaseDate"
+      id="releaseDate"
+      value="{{ tuple.get('releaseDate', '') }}"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="poster">Poster url</label>
+    <input
+      type="url"
+      class="form-control"
+      name="poster"
+      id="poster"
+      placeholder="Poster url"
+      value="{{ tuple.get('poster', '') }}"
+      required
+    >
+  </div>
+
+{% endblock %}

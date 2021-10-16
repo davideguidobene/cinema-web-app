@@ -1,0 +1,51 @@
+{% extends 'reserved_area/layout.html' %}
+
+
+{% block title %}
+  Purchase details
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="container">
+
+    <h1>Purchase details</h1>
+
+    <h2>Projection information</h2>
+    Movie title: {{ purchase_details.movie_title }}
+    <br>
+    Room: {{ purchase_details.room }}
+    <br>
+    Projection date: {{ purchase_details.proj_datetime.date() }}
+    <br>
+    Projection hours: {{ purchase_details.proj_datetime.time() }}
+    <br>
+    Ticket price: {{ purchase_details.proj_price }} €
+    <br>
+
+    <h2>Tickets</h2>
+    <ul>
+      {% for ticket in tickets %}
+        <li>Row: {{ ticket.row }}, Column: {{ ticket.column }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>Purchase information</h2>
+    Purchase ID: {{ purchase_id }}
+    <br>
+    Total: {{ purchase_details.purchase_total }} €
+    <br>
+    Purchase datetime: {{ purchase_details.purchase_datetime.date() }} {{ purchase_details.purchase_datetime.time() }}
+    <br>
+
+    <h3>Payment method</h3>
+    Holder name: {{ purchase_details.payment_method_holder_name }}
+    <br>
+    Card number: {{ purchase_details.payment_method_card_number }}
+    <br>
+    Payment circuit: {{ purchase_details.payment_circuit }}
+
+  </div>
+
+{% endblock %}

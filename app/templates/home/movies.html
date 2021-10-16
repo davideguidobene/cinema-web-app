@@ -1,0 +1,135 @@
+{% extends 'home/layout.html' %}
+
+
+{% block title %}
+  Film
+{% endblock %}
+
+
+{% block content %}
+  {{ super() }}
+
+  <div class="container">
+    <div class="movies-container">
+
+      <form action="" method="GET" class="filter-form">
+
+        <!-- search filter -->
+        <div class="form-group">
+          <label for="search"></label>
+          <input
+            type="text"
+            class="form-control form-control-sm"
+            id="search"
+            name="search"
+            autocomplete="off"
+            placeholder="Search movies by title, actors, director"
+            value="{% if search_field %}{{ search_field }}{% endif %}"
+          >
+        </div>
+
+        <!-- genre filter -->
+        <div class="form-group">
+          <select multiple class="form-control" name="genre" id="select-genre" placeholder="Filter movies by genre">
+            <option value=""></option>
+            {% for genre in genres %}
+              <option
+                value="{{ genre.name }}"
+                {% if genre.name in selected_genres %} selected {% endif %}
+              >
+                {{ genre.name }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-dark btn-sm btn-block">Filter</button>
+      </form>
+
+
+      {% with max_text_len = 170 %}
+
+        <!-- crea la lista di film -->
+        {% for movie1, movie2 in zip(movies[::2], movies[1::2]) %}
+
+          <div class="card-deck">   <!-- raggruppa 2 card -->
+
+            <!-- card sinistra -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <a href="/movies/{{ movie1.id }}">
+                    <img src="{{ movie1.poster }}" class="card-img" alt="Poster del film">
+                  </a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="/movies/{{ movie1.id }}" class="inherit-color">
+                        {{ movie1.title }}
+                      </a>
+                    </h5>
+                    <p class="card-text">{{ shorten_text(movie1.plot, max_text_len) }}</p>
+                    <p class="card-text"><small class="text-muted">{{ movie1.genre }}</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card destra -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <a href="/movies/{{ movie2.id }}">
+                    <img src="{{ movie2.poster }}" class="card-img" alt="Poster del film">
+                  </a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="/movies/{{ movie2.id }}" class="inherit-color">
+                        {{ movie2.title }}
+                      </a>
+                    </h5>
+                    <p class="card-text">{{ shorten_text(movie2.plot, max_text_len) }}</p>
+                    <p class="card-text"><small class="text-muted">{{ movie2.genre }}</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- end card-deck-->
+        {% endfor %}
+
+        <!-- Aggiunge il film rimanente se sono in numero dispari -->
+        {% if movies|length % 2 == 1 %}
+          <div class="card-deck">
+            <div class="card mb-3" style="max-width: 484.5px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <a href="/movies/{{ movies[-1].id }}">
+                    <img src="{{ movies[-1].poster }}" class="card-img" alt="Poster del film">
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="/movies/{{ movies[-1].id }}" class="inherit-color">
+                        {{ movies[-1].title }}
+                      </a>
+                    </h5>
+                    <p class="card-text">{{ shorten_text(movies[-1].plot, max_text_len) }}</p>
+                    <p class="card-text"><small class="text-muted">{{ movies[-1].genre }}</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+
+      {% endwith %}
+
+    </div>
+  </div>
+
+{% endblock %}

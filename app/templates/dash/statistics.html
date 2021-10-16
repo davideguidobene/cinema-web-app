@@ -1,0 +1,222 @@
+{% extends 'dash/layout.html' %}
+
+
+{% block title %}
+  Dashboard - Statistics
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="container">
+    <h1>Statistics</h1>
+    <br>
+    <h2>Here you can see for each genre the number of movies that have been published in the cinema</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Genre</th>
+          <th scope="col">Number of movies</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in common_movie_genre %}
+          <tr>
+            <td>{{ row.genre }}</td>
+            <td>{{ row.genre_count }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+    <h2>Here you can see how popular each movie genre is among the clients of the cinema</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Genre</th>
+          <th scope="col">Number of tickets sold</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in movie_genre_popularity %}
+          <tr>
+            <td>{{ row.genre }}</td>
+            <td>{{ row.genre_count }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+    <h2>Here you can see how much profit the cinema made out of movies of each genre</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Genre</th>
+          <th scope="col">Total profit €</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in movie_genre_profits %}
+          <tr>
+            <td>{{ row.genre }}</td>
+            <td>{{ row.genre_profit }} €</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+    <h2>Here you can see for each genre the number of movies of the cinema that have been released in the last 9 months</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Genre</th>
+          <th scope="col">Number of movies</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in common_movie_genre_trend %}
+          <tr>
+            <td>{{ row.genre }}</td>
+            <td>{{ row.genre_count }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+    <h2>Here you can see how popular each movie genre has been among the clients of the cinema in the last 9 months</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Genre</th>
+          <th scope="col">Number of tickets sold</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in movie_genre_popularity_trend %}
+          <tr>
+            <td>{{ row.genre }}</td>
+            <td>{{ row.genre_count }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+    <h2>Here you can see how much profit the cinema made out of movies of each genre that have been released in the last 9 months</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Genre</th>
+          <th scope="col">Total profit €</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in movie_genre_profits_trend %}
+          <tr>
+            <td>{{ row.genre }}</td>
+            <td>{{ row.genre_profit }} €</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+    <h2>Here you can see for each genre the 3 age groups of clients that have seen more movies of that genre </h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Genre / Age group</th>
+          <th scope="col">Number of tickets sold</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for genre in genre_popularity_by_age %}
+          <tr class="table-info">
+            <td>{{ genre }}</td>
+            <td></td>
+          </tr>
+          {% for row in genre_popularity_by_age[genre] %}
+            <tr>
+              <td>{{ row.age_group }}</td>
+              <td>{{ row.ticket_count }}</td>
+            </tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+    <h2>Here you can see the 3 most liked genre of each age group</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Age group / Genre</th>
+          <th scope="col">Number of tickets sold</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for age_group in age_popularity_by_genre %}
+          <tr class="table-info">
+            <td>{{ age_group }}</td>
+            <td></td>
+          </tr>
+          {% for row in age_popularity_by_genre[age_group] %}
+            <tr>
+              <td>{{ row.genre }}</td>
+              <td>{{ row.ticket_count }}</td>
+            </tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+
+    <h2>Here you can see the 25 most liked actors by the clients of the cinema</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Surname</th>
+          <th scope="col">Number of tickets sold</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in popular_actors %}
+          <tr>
+            <td>{{ row.name }}</td>
+            <td>{{ row.surname }}</td>
+            <td>{{ row.ticket_count }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+    <h2>Here you can see the 25 most liked directors by the clients of the cinema</h2>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Surname</th>
+          <th scope="col">Number of tickets sold</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in popular_directors %}
+          <tr>
+            <td>{{ row.name }}</td>
+            <td>{{ row.surname }}</td>
+            <td>{{ row.ticket_count }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+
+  </div>
+
+{% endblock %}

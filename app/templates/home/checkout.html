@@ -1,0 +1,80 @@
+{% extends 'home/layout.html' %}
+
+
+{% block title %}
+  Checkout
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+
+  <div class="container">
+    <div class="checkout-form">
+
+      <p style="font-size: xxx-large;">Totale: {{ total_price }} €</p>
+
+
+      <!-- riepilogo -->
+      <h3>Summary</h3>
+
+      Movie: {{ title }}
+      <br>
+      Hours: {{ datetime.date() }} - {{ datetime.time() }}
+      <br>
+      Tickets:
+      <ul>
+        {% for ticket in seats %}
+          <li>Row: {{ ticket.row }}, Column: {{ ticket.column }}</li>
+        {% endfor %}
+      </ul>
+
+      <form action="/confirm_payment_method" method="POST">
+
+        <h3>Payment</h3>
+
+        <h4>Select payment method</h4>
+
+        {% for index, payment_method in enumerate(payment_methods) %}
+          <div class="custom-control custom-radio">
+            <input
+              type="radio"
+              id="{{ payment_method.id }}-method"
+              name="payment-method-id"
+              class="custom-control-input"
+              value="{{ payment_method.id }}"
+              {% if index == 0 %} checked {% endif %}
+              required
+              autofocus
+            >
+            <label class="custom-control-label" for="{{ payment_method.id }}-method">
+              {{ payment_method.ownerName }} - {{ payment_method.cardNumber }} - {{ payment_method.expirationDate }}
+            </label>
+          </div>
+        {% endfor %}
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            id="0-method"
+            name="payment-method-id"
+            class="custom-control-input"
+            value="0"
+            {% if payment_methods|length == 0 %} checked {% endif %}
+            required
+          >
+          <label class="custom-control-label" for="0-method">
+            New payment method
+          </label>
+        </div>
+        <br>
+
+        <!-- hidden form field to carry the projection_id -->
+        <input id="proj_id" name="proj_id" type="hidden" value="{{ proj_id }}">
+
+        <button type="submit" class="btn btn-primary btn-block">Select</button>
+
+      </form>
+
+    </div>
+  </div>
+
+{% endblock %}

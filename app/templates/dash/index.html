@@ -1,0 +1,23 @@
+{% extends 'dash/layout.html' %}
+
+
+{% block title %}
+  Dashboard
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="container">
+    <div class="dashboard-list">
+      <h1>Admin dashboard</h1>
+
+      <ul>
+        <li><a href="{{ url_for('dash.table_selection', next='insert') }}">Insert new data</a></li>
+        <li><a href="{{ url_for('dash.table_selection', next='read') }}">Read, Update, Delete data from tables</a></li>
+        <li><a href="{{ url_for('dash.statistics') }}">Statistics</a></li>
+      </ul>
+    </div>
+  </div>
+
+{% endblock %}

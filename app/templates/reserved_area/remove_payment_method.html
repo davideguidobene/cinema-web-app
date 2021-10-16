@@ -1,0 +1,44 @@
+{% extends 'reserved_area/layout.html' %}
+
+
+{% block title %}
+  Reserved_area - Remove payment method
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="container">
+
+    {% if payment_method %}
+
+      <h1>Are you sure you want to remove this payment method?</h1>
+      <br/>
+
+      Holder name: {{ payment_method.ownerName }}
+      <br>
+      Card number: {{ payment_method.cardNumber }}
+      <br>
+      Expiration date: {{ payment_method.expirationDate }}
+      <br>
+      Payment circuit: {{ payment_method.paymentCircuit }}
+      <br>
+
+      <form action="" method="POST">
+        <input type="hidden" name="{{ payment_method_id }}" value="{{ payment_method.id }}">
+
+        <button type="submit" class="btn btn-danger btn-lg btn-block">Delete</button>
+      </form>
+
+    {% else %}
+
+      <h1>Payment method removed</h1>
+      <br/>
+
+      <a href="/reserved_area/payment_methods">Go back to <span style="font-weight: bold;">payment method list</span></a>
+
+    {% endif %}
+
+  </div>
+
+{% endblock %}

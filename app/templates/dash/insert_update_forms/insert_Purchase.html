@@ -1,0 +1,79 @@
+{% extends 'dash/insert_update_forms/layout.html' %}
+
+
+{% block form_content %}
+
+  <div class="form-group">
+    <label for="user">User</label>
+    <select class="form-control" name="user" id="user" placeholder="User" required>
+      <option value=""></option>
+      {% for user in additional_data.users %}
+        <option
+          value="{{ user.username }}"
+          {% if user.username == tuple.get('user', '') %} selected {% endif %}
+        >
+          {{ user.username }} - {{ user.name }} {{ user.surname }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="projection">Projection</label>
+    <select class="form-control" name="projection" id="projection" placeholder="Projection" required>
+      <option value=""></option>
+      {% for projection in additional_data.projections %}
+        <option
+          value="{{ projection.id }}"
+          {% if projection.id == tuple.get('projection', '') %} selected {% endif %}
+        >
+          {{ projection.id }} - {{ projection.room }} {{ projection.datetime }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="total">Total</label>
+    <input
+      type="number"
+      class="form-control"
+      name="total"
+      id="total"
+      placeholder="Total"
+      value="{{ tuple.get('total', '') }}"
+      min="0" step="0.01"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="purchaseDatetime">Purchase datetime</label>
+    <input
+      type="datetime-local"
+      class="form-control"
+      name="purchaseDatetime"
+      id="purchaseDatetime"
+      {% if tuple != {} %}
+        value="{{ tuple.get('purchaseDatetime', '').strftime('%Y-%m-%dT%H:%M') }}"
+      {% endif %}
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="paymentMethod">Payment method</label>
+    <select class="form-control" name="paymentMethod" id="paymentMethod" placeholder="Payment method" required>
+      <option value=""></option>
+      {% for paymentMethod in additional_data.payment_methods %}
+        <option
+          value="{{ paymentMethod.id }}"
+          {% if paymentMethod.id == tuple.get('paymentMethod', '') %} selected {% endif %}
+        >
+          {{ paymentMethod.id }} - {{ paymentMethod.ownerName }} {{ paymentMethod.cardNumber }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+{% endblock %}

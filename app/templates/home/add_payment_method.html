@@ -1,0 +1,126 @@
+{% extends 'home/layout.html' %}
+
+
+{% block title %}
+  {% if mode == 'add' %}
+    Add new payment method
+  {% else %}
+    Confirm
+  {% endif %}
+{% endblock %}
+
+
+{% if not payment_method %}
+  {% set payment_method = {} %}
+{% endif %}
+
+{% block content %}
+  {{ super() }}
+
+  <div class="container">
+    <div class="checkout-form">
+
+      <form action="/finalize_payment" method="POST">
+
+        <h3>Pagamento</h3>
+
+        <!-- payment circuit checkboxes -->
+        {% for payment_circuit in payment_circuits %}
+          <div class="custom-control custom-radio">
+            <input
+              type="radio"
+              id="{{ payment_circuit }}-method"
+              name="payment-circuit"
+              class="custom-control-input"
+              value="{{ payment_circuit }}"
+              {% if payment_method != {} %} disabled {% endif %}
+              {% if payment_circuit == payment_method.get('paymentCircuit', '') %} checked {% endif %}
+              required
+            >
+            <label class="custom-control-label" for="{{ payment_circuit }}-method">{{ payment_circuit }}</label>
+          </div>
+        {% endfor %}
+
+        <br>
+
+        <div class="form-group">
+          <label for="holder-name">Holder name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="holder-name"
+            name="holder-name"
+            placeholder="Holder name"
+            value="{{ payment_method.get('ownerName', '') }}"
+            {% if payment_method != {} %} disabled {% endif %}
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="card-number">Card number</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="card-number"
+            name="card-number"
+            value="{{ payment_method.get('cardNumber', '') }}"
+            inputmode="numeric"
+            pattern="[0-9]{16,16}"
+            autocomplete="cc-number"
+            maxlength="16"
+            placeholder="Card number"
+            required
+            {% if payment_method != {} %} disabled {% endif %}
+          >
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="expiration">Expiration date</label>
+            <input
+              type="date"
+              class="form-control"
+              id="expiration"
+              name="expiration"
+              value="{{ payment_method.get('expirationDate', '') }}"
+              {% if payment_method != {} %} disabled {% endif %}
+              required
+            >
+          </div>
+
+          <div class="col">
+            <label for="cvv">CVV</label>
+            <input
+              type="number"
+              class="form-control"
+              id="cvv"
+              name="cvv"
+              placeholder="CVV"
+              min="0" max="9999" step="1"
+              {% if payment_method != {} %} autofocus {% endif %}
+              required
+            >
+          </div>
+        </div>
+
+        <br>
+
+        <!-- hidden form field to carry the projection_id -->
+        <input id="proj_id" name="proj_id" type="hidden" value="{{ proj_id }}">
+
+        <input
+          type="hidden"
+          id="payment-method-id"
+          name="payment-method-id"
+          value="{{ payment_method.get('id', 0) }}"
+        >
+
+        <button type="submit" class="btn btn-primary btn-block">Confirm</button>
+
+      </form>
+
+    </div>
+  </div>
+
+{% endblock %}

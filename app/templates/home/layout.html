@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+
+{% block title %}
+  Home
+{% endblock %}
+
+
+{% block style %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+{% endblock %}
+
+
+{% block content %}
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="container">
+          <div class="alert-container">
+            <div class="alert alert-{{ category }}" role="alert">
+              {{ message }}
+            </div>
+          </div>
+      </div>
+    {% endfor %}
+  {% endwith %}
+
+{% endblock %}
+
+
+{% block custom_js %}
+  <script src="{{ url_for('static', filename='js/home.js') }}"></script>
+{% endblock %}
